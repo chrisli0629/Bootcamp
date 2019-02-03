@@ -216,13 +216,3 @@ export NVM_DIR="$HOME/.nvm"
 
   When writing HTML, please run validation on it.  A decent validator is a Firefox Add-on called HTML Validator.  Once enabled, it shows your mistakes in the Validator tab in Dev Tools.  There's nothing like that in Chrome.
 
-## Discussions and Evaluations
-
-Most Saturdays we will have discussions about lessons learnt from the week, open and anonymous feedback and evaluation of how much you learnt.  The evaluations would progressively get more challenging :-).
-
-  1. Demo - how to run a Live Server.
-  2. Demo - using JSBin 
-  2. Jobs, Careers, Skills, Competencies etc. - [Questions and Discussions](https://docs.google.com/presentation/d/1COZafRfr57LWVcGwrxdH2EgLa7g5-dpjTmiTScNSHUo/edit?usp=sharing) (15 min)
-    2.1. What did you take away from Job Search discussion #1?
-  3. Week 1 Feedback [Survey Monkey](https://www.surveymonkey.com/r/K7ML6ZT)
-  4. Plan for Week 2
