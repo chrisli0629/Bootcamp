@@ -9,15 +9,12 @@
 
 # Links to Lecture Slides and Other Useful Resources
 
-Note: Sometimes you may have to request permission to view and comment on the
+Note: Occassionally, you may have to request permission to view and comment on the
 slides.  Please request it, via your browser when you click on these links
 below and we'll provide you with the permission as quickly as we can.
 
 ## ACC Software Bootcamp - Starting Up
-1. #### [Introduction & Instructions & Useful Stuff - Google Slides](https://docs.google.com/presentation/d/1_03vy14hWa-h5FeuAgnPPNenjwLaUehl25sCNxIU-qU/edit?usp=sharing)
-
-## ACC Software Bootcamp - Starting Up - RECORDINGS
-1. #### [Class Discussions - Zoom Recordings](https://drive.google.com/drive/folders/1mll2XQ3DRWVKU-OUM3vy4h3pbHviP99M?usp=sharing)
+1. #### [Introduction & Instructions & Tips for Success - Google Slides](https://docs.google.com/presentation/d/1MmQoZZrkkwWUbCMfOkYAN9GbhL24uSPRi1nrrlRs2Ss/edit?usp=sharing)
 
 ## Hacking Google
 1. #### [Hacking Google - Google Slides](https://docs.google.com/presentation/d/1MmQoZZrkkwWUbCMfOkYAN9GbhL24uSPRi1nrrlRs2Ss/edit?usp=sharing)
@@ -26,6 +23,6 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [How to use your command line - Google Slides](https://docs.google.com/presentation/d/1aHMf2KJHAmOfBUqCdfKoi4jcn_JtNyvdvcdlxwdqby8/edit?usp=sharing)
 
 ## HTML
-1. [Introduction](https://docs.google.com/presentation/d/1xxEMPx1q3YJlKauVuljw6M0Tim0j8Sy-zgddODUdQ2k/edit?usp=sharing)
+1. [Introduction](https://drive.google.com/open?id=18nRqe0_LlIyCrqz1BieiMhKe41sasVlqOm5WzA3CptA)
 1. [Tables and Forms](https://docs.google.com/presentation/d/18nRqe0_LlIyCrqz1BieiMhKe41sasVlqOm5WzA3CptA/edit?usp=sharing)
 1. [Accessibility](https://docs.google.com/presentation/d/1wyRu7Tn37maTjTrxH8iJT8ZrbQK88_CFjG7BGvCXgz4/edit?usp=sharing)
