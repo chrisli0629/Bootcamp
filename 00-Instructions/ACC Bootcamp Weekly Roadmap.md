@@ -35,6 +35,7 @@
   * Positioning Properties - Static, Relative, Absolute, Fixed, z-index
   
 * Week 3: Intermediate CSS and Bootstrap
+
 * Week 4: Intro to JavaScript
 
   * Variables
@@ -88,8 +89,8 @@
   * EJS Templating
   * More explanation on callback functions
   * Basic ES6 Constructs (fat arrow, returning results, templating)
-          
-* Week 8: Node.js (NoSQL and Mongo.db)
+
+* Week 8: Node.js (NoSQL and MongoDB)
 
   * Installing Mongo
   * What is Mongo?  
@@ -101,11 +102,16 @@
   * Drop
   * How to Design a Mongo Schema
 
-OFF WEEK : 13 - 19 May
+* Week 9: Consuming APIs
 
-* Week  9: SQL Databases 
+  * Params
+  * Queries (URL Encoding)
+  * Parsing & Stringifying
+  * Viewing objects and arrays in Chrome browser & Postman
+     
+* Week 10: SQL Databases 
 
-  * Concepts
+  * Concepts - what is relational db and why is it popular?
   * Select Statements
   * Filtering
   * Joins - Inner, Outer, Full, Cartesian
@@ -113,24 +119,29 @@ OFF WEEK : 13 - 19 May
   * Filtering after Grouping
   * Subquerying
 
-* Week 10: More SQL Databases
+* Week 11: More SQL Databases
 
+  * Schema and how to design one?
   * Inserts
   * Updates
   * Deletes
   * Merging
-  * Data Definition Language, 
-  * Intermediate Selects
+  * Data Definition Language
+  * Intermediate Querying
 
-* Week 11: Consuming APIs
-
-  * Params
-  * Queries (URL Encoding)
-  * Parsing & Stringifying
-     
 * Week 12: jQuery
+  
+  * Why and why not jQuery
+  * Alternatives to jQuery
+  * How and when to load jQuery, local files and CDNs
+  * DOM Tree
+  * Selecting by elements, id's and classes
+  * Changing styles
+  * Changing content
+  * Events
+  * Animation
 
-* Week 15: Publishing API
+* Week 13: Publishing API
 
   * Body Parsing
   * Creating a ToDo RESTFul API
@@ -197,12 +208,8 @@ OFF WEEK : 13 - 19 May
   * Component Lifecycle
   * A sample CRUD app using React
 
-OFF WEEK : 22 - 28 July
-
 * Week 17: React.js (Redux)
 
 * Weeks 18 - 24 : Capstone Project
 
-Note: this roadmap is subject to change.  Please refresh this to get the latest
-program roadmap.
-
+Note: this roadmap is subject to change.
