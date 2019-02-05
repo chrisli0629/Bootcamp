@@ -25,7 +25,7 @@
 
 ## 2. Job Search 
     
-  [Youtube - Finding a Programming Job](https://youtu.be/zmuubIwxVUk)
+  [Youtube - Finding a Programming Job](https://youtu.be/6eM0Vgpa9Yo)
 
 ## 3. Projects List
   
