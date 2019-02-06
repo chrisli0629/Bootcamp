@@ -14,7 +14,7 @@ slides.  Please request it, via your browser when you click on these links
 below and we'll provide you with the permission as quickly as we can.
 
 ## ACC Software Bootcamp - Starting Up
-1. #### [Introduction & Instructions & Tips for Success - Google Slides](https://docs.google.com/presentation/d/1MmQoZZrkkwWUbCMfOkYAN9GbhL24uSPRi1nrrlRs2Ss/edit?usp=sharing)
+1. #### [Introduction & Instructions & Tips for Success - Google Slides](https://docs.google.com/presentation/d/1_03vy14hWa-h5FeuAgnPPNenjwLaUehl25sCNxIU-qU/edit?usp=sharing)
 
 ## Hacking Google
 1. #### [Hacking Google - Google Slides](https://docs.google.com/presentation/d/1MmQoZZrkkwWUbCMfOkYAN9GbhL24uSPRi1nrrlRs2Ss/edit?usp=sharing)
