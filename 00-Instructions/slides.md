@@ -28,6 +28,5 @@ below and we'll provide you with the permission as quickly as we can.
 1. [Accessibility](https://docs.google.com/presentation/d/1wyRu7Tn37maTjTrxH8iJT8ZrbQK88_CFjG7BGvCXgz4/edit?usp=sharing)
 
 ## CSS
-1. #### [Cascading Stylesheets - Google Slides](https://docs.google.com/presentation/d/1tJ4waxQygz___YDcWUr9IZIT11MqqzLD9PnnwyjD9lw/edit?usp=sharing)
-
-
+1. #### [CSS - Introduction](https://docs.google.com/presentation/d/1tJ4waxQygz___YDcWUr9IZIT11MqqzLD9PnnwyjD9lw/edit?usp=sharing)
+1. #### [CSS - Pseudoclasses](https://docs.google.com/presentation/d/1Ii7e3At25QV3ZKd4ZJJFlz_j88rJyEIjt8NjVgymbcM/edit?usp=sharing)
