@@ -44,6 +44,10 @@ or, you may check out the following tutorial.  Don't need to do both ;-)
 
 [JavaScript Tutorials for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
 
+or, if you prefer reading a book, here's a recently launched and a very nice one ...
+
+[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+
 ## Weekly Feedback
 
 Please take a few minutes and log your feedback for Week 4 - JavaScript.
