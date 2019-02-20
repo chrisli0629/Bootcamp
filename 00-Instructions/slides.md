@@ -32,3 +32,10 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [CSS - Pseudoclasses](https://docs.google.com/presentation/d/1Ii7e3At25QV3ZKd4ZJJFlz_j88rJyEIjt8NjVgymbcM/edit?usp=sharing)
 1. #### [CSS - Flexbox](https://docs.google.com/presentation/d/1F1m99Et41uePiH268XIpDgYAN4_NKhI5KV_xw3wTuRM/edit?usp=sharing)
 1. #### [CSS - Bootstrap](https://docs.google.com/presentation/d/1-c1fGe1ZhPXLr78D_cS347us_7dyfH_FyVMig4G_I9c/edit?usp=sharing)
+
+## Javascript
+1. #### [Javascript - Introduction](https://docs.google.com/presentation/d/1gw9glaGS1IhjWjjbxzk_mds9yG8W7uLIDkUZS-s9iBs/edit?usp=sharing)
+1. #### [Javascript - Control Flow](https://docs.google.com/presentation/d/1FpOqlP3WA65skHg2DetbwQ8khcCoIHayfSZ_TsSzv9I/edit?usp=sharing)
+1. #### [Javascript - Functions](https://docs.google.com/presentation/d/1F6EFq-MkJZCuV5uqzhPZYuMfz4DBxYKCNDha3kZ-Vsw/edit?usp=sharing)
+
+
