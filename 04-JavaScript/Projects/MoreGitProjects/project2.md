@@ -18,5 +18,4 @@
   1. Run "git status" again.
   1. Push your initial commit to the remote.
 
-From now on, any project that you are working on should be saved onto Github. Start gaining practice and familiarity now!
   
