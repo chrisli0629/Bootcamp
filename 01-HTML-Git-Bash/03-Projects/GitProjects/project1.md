@@ -1,8 +1,8 @@
 <center>
-
+ 
 ### AUSTIN COMMUNITY COLLEGE 
-#### Web Software Bootcamp 
-Mar 2018 - Sept 2018
+#### Web Software Bootcamp 2018
+###### January 2019 - August 2019
 
 </center>
 
@@ -16,7 +16,7 @@ Mar 2018 - Sept 2018
 6. Create a file called “style.css”. Check the status.
 7. Add the css file to the repo.
 8. Commit with the message “Added CSS file.”
-9. Create two files and call them “part1.js” and “part2.js”. Add both files to the repo at the same time. (Think about what command you would type to make this happen.)
+9. Create two files and call them “part1.js” and “part2.js”. Add both files to the repo at the same time. (Think about how you would type to make this happen.)
 10. Commit your changes and give it a message of your own liking.
 11. Check out a list of all your changes using “git log”.
 
