@@ -8,7 +8,50 @@
 
 ## Roadmap for the next 26 weeks:
 
+This roadmap is a list of topics that we would learn and approximate time frame when we would learn it, and an approximate order in which we'll learn them.
+
+We would adjust what is taught and when based on progress made by the class and what we have learnt from feedback from the previous cohorts.
+
+You would find a few topics which were omitted in their planned week, but were covered at a later date. 
+
 * Week 1: Introductions, Instructions, HTML, Git and Command Line
+  * Command Line
+    * Why use command line
+    * Setting up your bash environment
+    * Finding out where you are in the directory tree
+    * Clearing your screen
+    * list files `ls`, showing hidden files, showing detailed info
+    * Creating directories
+    * Changing directory `cd`, both up and down the directory tree
+    * Creating files with `touch file`
+    * Adding text to a file by piping it
+    * Viewing contents of a file
+    * Copying files
+    * Moving files
+    * How to get help about command line commands on command line
+    * Copying and moving directories and their contents
+    * Deleting files
+    * Running multiple commands in one line
+    * Reading permissions on files and changing them
+    * Running commands as an administrator
+    * Connecting to another computer
+    * Using a basic text editor
+    * Converting to a root (admin) user or another user on the computer
+  * Visual Studio Code (VSCode)
+    * How to invoke VSCode from command line
+  * Tips on effective Google Search
+  * GIT
+    * What is Git
+    * Why use Git
+    * Adding git to your directory
+    * Finding out status of your git enabled directory
+    * Adding files to git index
+    * Committing files
+    * Ignoring files from git
+    * Synchronizing your files with a remote repository using `git pull` and `git push`
+    * Looking at git history using `git log` and its flags
+    * Working directory, index, local repo and remote repo.llll
+    
 * Week 2: Intro to CSS
   * What is CSS?
     * What is cascading?
@@ -79,19 +122,19 @@
           
 * Week 7: Node.js 
 
+  * Basic ES6 Constructs (fat arrow, returning results, templating)
   * How does the WWW work?
   * HTTP requests 
   * NPM
   * Node REPL
   * Postman
-  * Express.js 
-    * Routing
   * EJS Templating
   * More explanation on callback functions
-  * Basic ES6 Constructs (fat arrow, returning results, templating)
 
 * Week 8: Node.js (NoSQL and MongoDB)
 
+  * Express.js 
+    * Routing
   * Installing Mongo
   * What is Mongo?  
   * When to Use Mongo?
