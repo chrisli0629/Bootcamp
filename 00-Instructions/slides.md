@@ -39,4 +39,5 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [Javascript - Functions](https://docs.google.com/presentation/d/1F6EFq-MkJZCuV5uqzhPZYuMfz4DBxYKCNDha3kZ-Vsw/edit?usp=sharing)
 1. #### [JavaScript - Arrays](https://docs.google.com/presentation/d/1i6QcQot-ZoYJgGGrjJUbmVTg66xZCT9IY69OU_6LmoE/edit?usp=sharing)
 1. #### [JavaScript - Strings and Objects](https://docs.google.com/presentation/d/11RseRgfrYpPv1h0m7jYdvqIZLwPD-HsZUPssMKZhcHE/edit?usp=sharing)
+1. #### [JavaScript - JavaScript and DOM Manipulation](https://docs.google.com/presentation/d/1Db6kanAOlOZZR060RjxDnxXtCknFQRnYSLVF8PwgLMs/edit?usp=sharing)
 1. #### [JavaScript - ES6 and Some Extra Features](https://docs.google.com/presentation/d/1b-0-tJ2MlxN2ZeG56dBiSem8bMmVOuXD7CqW3Vg7TSE/edit?usp=sharing)
