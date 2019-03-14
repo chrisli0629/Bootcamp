@@ -46,3 +46,4 @@ below and we'll provide you with the permission as quickly as we can.
 ## NodeJS
 1. #### [NodeJS - Intro, HTTP, Postman](https://docs.google.com/presentation/d/1PEj8ur1PUaJpEUTmKUL3xDPy5ZfAKjWXXyNGVINgC7Q/edit?usp=sharing)
 1. #### [NodeJS - NPM, node modules, Express, Routing](https://docs.google.com/presentation/d/1whYK9Oww5EdqBRdCiCHYkp-6qBVsumPmVS5tI21GYUQ/edit?usp=sharing)
+1. #### [NodeJS - Routing, EJS](https://docs.google.com/presentation/d/1A1vj3-6vx9vlw3mdlvV-KrCDzcgPnjpBL3IzuInM4vs/edit?usp=sharing)
