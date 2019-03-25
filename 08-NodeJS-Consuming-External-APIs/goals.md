@@ -15,7 +15,7 @@
 
 [JSON and AJAX Tutorial: Youtube](https://www.youtube.com/watch?v=rJesac0_Ftw)
 
-[Asynchronous JavaScript Tutorial: Youtube](https://www.youtube.com/watch?v=YxWMxJONp7E&list=PL4cUxeGkcC9jAhrjtZ9U93UMIhnCc44MH)
+[Asynchronous JavaScript Tutorial: Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jAhrjtZ9U93UMIhnCc44MH)  Please try and go over the first 4 videos in this series as they would be very helpful in the upcoming projects and in your overall understanding of the asynchoronous nature of JS.
 
 
 #  PROJECTS
