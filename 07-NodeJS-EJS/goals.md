@@ -3,14 +3,12 @@
 ### AUSTIN COMMUNITY COLLEGE 
 #### Web Software Bootcamp 
 ##### January 2019 - August 2019
+
 </center>
 
 ### LEARNING GOALS
 
-This week we will be learning about Node.js and a templating library called EJS. EJS stands for embedded JavaScript. We use it for templating, and it will make our web applications more dynamic. No more static web pages!  With EJS, JavaScript code is embedded in an HTML document.  The node server converts the JS into HTML markup and sends the generated HTML (renders) to the client browsers.
-
-Please try these EJS projects as they would strengthen your understanding of templating.
-  
+This week we will be learning about Node.js and a templating library called EJS. EJS stands for embedded JavaScript. We use it for templating, and it will make our web applications more dynamic. No more static web pages!  With EJS, JavaScript code is embedded in an HTML document.  The node server converts the JS into HTML markup and sends the generated HTML (renders) to the client browsers.  
 
 ### PROJECTS  
 
