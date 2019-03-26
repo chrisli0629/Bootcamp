@@ -51,6 +51,8 @@ below and we'll provide you with the permission as quickly as we can.
 
 ## APIs
 1. #### [APIs - Introduction - Weather App](https://docs.google.com/presentation/d/1yMYeVqPawPb50p9BveL7jPfkCFXaqZ6w8SP2NzliKnk/edit?usp=sharing)
+1. #### [Consuming APIs - Dog Image and Bitcoin](https://docs.google.com/presentation/d/1TpqNwlLVTzcGCJ-63aMKO0ZmmZDK8VJRZgoWHWb3d_4/edit?usp=sharing)
+
 
 
 
