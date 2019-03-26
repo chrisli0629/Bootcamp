@@ -53,6 +53,7 @@ You would find a few topics which were omitted in their planned week, but were c
     * Working directory, index, local repo and remote repo.llll
     
 * Week 2: Intro to CSS
+
   * What is CSS?
     * What is cascading?
   * CSS Syntax
@@ -97,9 +98,6 @@ You would find a few topics which were omitted in their planned week, but were c
   * Arrays
   * Fallbacks (if variable is null)
   * Truthy and falsy values
-     
-* Week 5: JavaScript
-
   * Conditionals
   * Loops
   * Functions
@@ -109,8 +107,8 @@ You would find a few topics which were omitted in their planned week, but were c
   * Math class & methods
   * String class & methods
   * JSON methods
-      
-* Week 6: JavaScript - DOM Manipulation
+     
+* Week 5: JavaScript - DOM Manipulation
 
   * Changing style
   * Changing attributes
@@ -131,7 +129,44 @@ You would find a few topics which were omitted in their planned week, but were c
   * EJS Templating
   * More explanation on callback functions
 
-* Week 8: Node.js (NoSQL and MongoDB)
+* Week 8: Consuming External APIs
+  * Params
+  * Queries (URL Encoding)
+  * JSON Parsing & Stringifying
+  * Viewing objects and arrays in Chrome browser & Postman
+
+* Week 9: Creating and Using RESTful APIs
+
+  * Routing, Request Query and Request Params
+  * Logging
+  * Data formats - HTTP Header Settings
+  * Body Parsing
+  * Creating a ToDo RESTFul API
+    * Create (POST)
+    * Read (GET)
+    * Update (PUT)
+    * Delete (DELETE)
+    * Other HTTP Verbs
+  * Modifying the ToDo front-end app to connect with the API 
+  * Testing the ToDo REST API we created
+    * Mocha test runner
+    * Assertion libraries
+
+* Week 10: MongoDB
+
+  * Intro to NoSQL
+  * Intro to Document Orinted Databases
+  * Local Setup of Mongo
+  * Mongo Client Setup (VSCode and Robo3T)
+  * Intro to MLab
+  * Finding
+  * Inserting
+  * Deleting
+  * Updating
+  * Aggregating
+  * Joining
+
+* Week 11: Mongo and MongooseJS
 
   * Express.js 
     * Routing
@@ -143,16 +178,9 @@ You would find a few topics which were omitted in their planned week, but were c
   * Insert, Save
   * Find, Filtering
   * Drop
-  * How to Design a Mongo Schema
+  * How to Design a Mongo Schema?
 
-* Week 9: Consuming APIs
-
-  * Params
-  * Queries (URL Encoding)
-  * Parsing & Stringifying
-  * Viewing objects and arrays in Chrome browser & Postman
-     
-* Week 10: SQL Databases 
+* Week 12: SQL Databases 
 
   * Concepts - what is relational db and why is it popular?
   * Select Statements
@@ -162,17 +190,18 @@ You would find a few topics which were omitted in their planned week, but were c
   * Filtering after Grouping
   * Subquerying
 
-* Week 11: More SQL Databases
+* Week 13: More SQL Databases
 
-  * Schema and how to design one?
+  * Relations and Keys
   * Inserts
   * Updates
   * Deletes
   * Merging
   * Data Definition Language
   * Intermediate Querying
+  * Schema and how to design one?
 
-* Week 12: jQuery
+* Week 14: jQuery & Front-end Back-end Integration
   
   * Why and why not jQuery
   * Alternatives to jQuery
@@ -184,13 +213,7 @@ You would find a few topics which were omitted in their planned week, but were c
   * Events
   * Animation
 
-* Week 13: Publishing API
-
-  * Body Parsing
-  * Creating a ToDo RESTFul API
-  * Modifying the ToDo front-end app to connect with the API 
-
-* Week 14: Advanced JavaScript
+* Week 15: Advanced JavaScript
   * Parsing
   * Lexical Environment
   * Context, global and this
@@ -251,8 +274,10 @@ You would find a few topics which were omitted in their planned week, but were c
   * Component Lifecycle
   * A sample CRUD app using React
 
-* Week 17: React.js (Redux)
+* Week 17: React.js
 
 * Weeks 18 - 24 : Capstone Project
+
+* Week 24 : Final Exam and Celebration 
 
 Note: this roadmap is subject to change.
