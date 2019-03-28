@@ -45,12 +45,54 @@
 1. This project will exercise your ability to drill down on an object. If you need help, ask!!
 
 Screenshots of the project:
-* http://imgtc.com/i/v6Jn9w3.png
-* http://imgtc.com/i/e1mOM3I.png
+* [Home page](./images/home.png)
+* [Results page](./images/results.png)
+
+#### Project 2: Bitcoin Price Checker App
+
+In this project, you are going to build an app that retrieves the current price of Bitcoin and displays it in the browser, when the user clicks a button.
+
+In order to complete this exercise, you will require the following API documentation:
+
+https://www.coindesk.com/api
+
+Check it out and get familiar with how to use it.
+
+Your finished app page, should look something like this
+
+<img src="./images/bitcoin.png" width=75% style="border:1px solid black">
+
+<strong>Hints:</strong>
+
+These might help you build the above app:
+
+1. HTML Forms: learn how to use the a form and a input of type submit.
+
+1. How exactly does the GET method work?
+
+1. What is difference between req.params and req.query?  What would you use in this app?
+
+1. HTML entities
+
+1. You may need and use [number methods](https://www.w3schools.com/js/js_number_methods.asp)
 
 
-#### Project 2: Weather Conditions
+#### Project 3 (Extra): Movies Playing Now
 
-To be posted here soon ...
+This project is designed to test your knowledge of the front end as well as the back end. You will be building an application that allows users to find current movies playing in the theaters. 
 
+The home page should look like this: 
 
+<img src="./images/movies.png" width=90% style="border:1px solid black">
+
+When they click on the button, they are taken to a page that looks like this (note that the movies listed may be different from you have): 
+
+<img src="./images/movies-results.png" width=90% style="border:1px solid black">
+
+When the user clicks on the button on the home page, they are taken to another page which lists four things: the movie title, overview, rating, and poster image.
+
+You will be using the The Movie Database API. Its documentation can be found here: [API Docs](https://developers.themoviedb.org/3). 
+
+Please note that a user key is required to read the data. It is free to sign up. Read the instructions on how to use the API.
+
+Remember, you want to list the movies that are ‘now playing’ in theaters.
