@@ -28,7 +28,7 @@ We have seen the HTTP output codes like 200 and 404. What do these mean? How to 
 
 2.0.2 Automating the Tests for your API
 
-Review this material and you may try the tests, after we have demo'ed testing in class.
+Review this material so you have an idea of what testing is about and how it is done.  You may try recreating the tests, after we have demo'ed testing in class.
 
 Here, we will create tests to test the API routes we create as shown here. Remember, these videos are to learn. You may adopt and adapt the code patterns to suit the project as needed. If in doubt, please ask.
 
