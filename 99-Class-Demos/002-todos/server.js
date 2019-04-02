@@ -1,11 +1,10 @@
+// create an app object from express
 var express = require('express')
+var app = express()
 
 // morgan allows us to view activity of the node
 // process in the console.log
 var morgan = require('morgan')
-
-// create an app object from express
-var app = express()
 app.use(morgan('dev'))
 
 // impart the parsing ability to app object so it 
@@ -36,6 +35,8 @@ app.get('/todos', function(req, res){
     res.send(toDoArray);
 })
 
+// accept new todo data from the client (todo app)
+// and save it within the toDoArray
 app.post('/todos', function(req, res){
     // create new todo object based on the
     // data received by this API 
