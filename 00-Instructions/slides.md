@@ -23,7 +23,7 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [How to use your command line - Google Slides](https://docs.google.com/presentation/d/1aHMf2KJHAmOfBUqCdfKoi4jcn_JtNyvdvcdlxwdqby8/edit?usp=sharing)
 
 ## HTML
-1. [Introduction](https://drive.google.com/open?id=18nRqe0_LlIyCrqz1BieiMhKe41sasVlqOm5WzA3CptA)
+1. [Introduction](https://docs.google.com/presentation/d/1xxEMPx1q3YJlKauVuljw6M0Tim0j8Sy-zgddODUdQ2k/edit?usp=sharing)
 1. [Tables and Forms](https://docs.google.com/presentation/d/18nRqe0_LlIyCrqz1BieiMhKe41sasVlqOm5WzA3CptA/edit?usp=sharing)
 1. [Accessibility](https://docs.google.com/presentation/d/1wyRu7Tn37maTjTrxH8iJT8ZrbQK88_CFjG7BGvCXgz4/edit?usp=sharing)
 
