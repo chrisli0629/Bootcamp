@@ -54,9 +54,41 @@ app.post('/todos', function(req, res){
     res.status(201).send(newTodo)
 })
 
+app.delete('/todos/:todoid', function(req, res){
+    var requestedToDoId = parseInt(req.params.todoid);
+    // let's find the requested todo
+    var requestedToDoIndex = toDoArray.findIndex(function(elem){
+        return elem.id === requestedToDoId
+    })
+    if(requestedToDoIndex == undefined || requestedToDoIndex == -1) {
+        res.status(400).send('The requested todo id was not found');
+    } else {
+        toDoArray.splice(requestedToDoIndex, 1)
+        res.send(toDoArray)
+    }
+})
+
+app.put('/todos/:todoid', function(req, res){
+    var requestedToDoId = parseInt(req.params.todoid);
+    // console.log('requested todo id is ', requestedToDoId)
+
+    if (typeof(requestedToDoId) !== 'number'){
+        res.status(400).send('Please send me a valid todo id')
+    } else {
+        var requestedToDo = toDoArray.find(function(elem){
+            return elem.id === requestedToDoId
+        })
+
+        requestedToDo.isComplete = !requestedToDo.isComplete
+        res.send(requestedToDo)
+    }
+})
+
 // start the app listener, which is an endless
 // process.  this will keep running unless some
 // major error occurs and the code doesn't handle it
 app.listen(port, function(){
     console.log(`Started ToDo API on port ${port}`)
 })
+
+
