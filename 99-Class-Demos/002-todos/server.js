@@ -1,19 +1,51 @@
 // create an app object from express
+// 
+// Installation:
+//    npm install express --save
+//
+// Note: EJS and request and not needed as
+// Express has the http client ability built in.
 var express = require('express')
 var app = express()
 
 // morgan allows us to view activity of the node
 // process in the console.log
+//
+// Installation: on your command line type
+//      npm install morgan --save
+// This will install morgan library into the node_modules folder
+// and you would be able to use it.  The --save will also make an
+// entry into the package.json file, so that others using this code
+// will also get it if they want to run your code.
+//
+// Do not use the global (-g) flag, as some projects need morgan, and not all.
 var morgan = require('morgan')
 app.use(morgan('dev'))
 
-// impart the parsing ability to app object so it 
+// Following imparts the parsing ability to app object so it 
 // can read the body in the request object coming in
+//
+// Following IS required if this API is to receive data
+// through POST methods.
 var bodyParser = require('body-parser')
+
+// Following is needed if you are going to receive data as JSON
+//    e.g.
+//  { "id": 1, "description": "Call mom", "isComplete": false}
 app.use(bodyParser.json())
+
+// Following is needed if you are going to receive data as Url encoded data
+//    e.g.
+//        id=1&description=Call%20mom&isComplete=false
 app.use(bodyParser.urlencoded({extended: true}))
 
-// set a port variable
+// Set a port variable
+// "process.env" is a JS object, which contains all the settings
+// which are available in bash prompt. To find out what they are,
+// you may run the following command in a terminal
+//
+// env
+// 
 var port = process.env.PORT || 3000
 
 // this will act like our database of the todo objects
@@ -23,8 +55,8 @@ var toDoArray = [
     {id: 3, description: "Go to movies", isComplete: false}
 ]
 
-// send a message if the user makes a GET request
-// to the root ("/") route
+// Send a message if the user makes a GET request to the root ("/") route
+// Later we shall return the ToDo front end app on this route 
 app.get('/', function(req, res){
     res.send('You have reached my ToDos API!!')
 })
