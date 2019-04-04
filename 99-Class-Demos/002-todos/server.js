@@ -103,6 +103,7 @@ app.delete('/todos/:todoid', function(req, res){
 app.put('/todos/:todoid', function(req, res){
     var requestedToDoId = parseInt(req.params.todoid);
     // console.log('requested todo id is ', requestedToDoId)
+    console.log('typeof: ', typeof(requestedToDoId))
 
     if (typeof(requestedToDoId) !== 'number'){
         res.status(400).send('Please send me a valid todo id')
@@ -111,7 +112,7 @@ app.put('/todos/:todoid', function(req, res){
             return elem.id === requestedToDoId
         })
 
-        requestedToDo.isComplete = !requestedToDo.isComplete
+        requestedToDo ? requestedToDo.isComplete = !requestedToDo.isComplete: null;
         res.send(requestedToDo)
     }
 })
