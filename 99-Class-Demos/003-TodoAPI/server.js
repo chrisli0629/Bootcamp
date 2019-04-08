@@ -1,5 +1,9 @@
+
 var express = require('express')
 var app = express()
+
+var cors = require('cors')
+app.use(cors())
 
 var morgan = require('morgan')
 app.use(morgan('dev'))
@@ -8,10 +12,9 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
-var cors = require('cors')
-app.use(cors())
-
 var port = process.env.PORT || 3000
+
+var todoNextId = 3;
 
 var toDoArray = [
     {id: 1, description: "Call mom", isComplete: false},
@@ -31,7 +34,7 @@ app.post('/todos', function(req, res){
     // create new todo object based on the
     // data received by this API 
     let newTodo = {
-        id: parseInt(req.body.id),
+        id: todoNextId++, // was : parseInt(req.body.id),
         description:  req.body.description,
         isComplete: false
     }

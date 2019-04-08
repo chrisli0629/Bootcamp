@@ -13,20 +13,20 @@ $('document').ready(function(){
         $("ul").empty();
         // loop over the array we received from API
         dataObj.map(function(todo){
-           let completed = todo.isComplete ? "completed" : "";
+           let completed = todo.isComplete ? "class='completed'" : "";
            // let's add li's to the ul in the app
            $("ul").append(
-             `<li class=${completed}> 
+             `<li ${completed} data-id='${todo.id}'> 
                 ${todo.description}
                 <span><i class="fa fa-times"></i></span>
              </li>`
            )
         })
     })   
-    
+
     .fail(function(errorObj){   // error condition
         // what to do if the call fails?
-        alert( "Something wrong. Please call support. Err is " + JSON.stringify(errorObj) );
+        console.error("API call failed with error " + JSON.stringify(errorObj) );
         return false;
     })
 })
@@ -34,10 +34,20 @@ $('document').ready(function(){
 
 // UPDATE
 $('ul').on('click', 'li', function() {
-  $(this).toggleClass('abcd');
+  
+  var thisTodoId = $(this).data("id");
+
+  $.ajax({
+    url: todoAPIurl+"/"+thisTodoId,
+    method: "PUT"
+  })
+  .done(function(){
+    $(this).toggleClass('completed');
+  })
+
 });
 
-// DELETEhero
+// DELETE
 $('ul').on('click', 'span', function(event) {
   $(this).parent().remove();
 });
