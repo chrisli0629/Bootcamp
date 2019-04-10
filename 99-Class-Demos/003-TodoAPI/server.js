@@ -16,23 +16,31 @@ var port = process.env.PORT || 3000
 
 var todoNextId = 3;
 
+
 var toDoArray = [
     {id: 1, description: "Call mom", isComplete: false},
     {id: 2, description: "Buy groceries", isComplete: false},
     {id: 3, description: "Go to movies", isComplete: false}
 ]
 
+
 app.get('/', function(req, res){
     res.send('You have reached my ToDos API!!')
 })
+
+
 
 app.get('/todos', function(req, res){
     res.send(toDoArray);
 })
 
+
+// CREATE - POST
 app.post('/todos', function(req, res){
     // create new todo object based on the
     // data received by this API 
+    console.log('req.body is ', req.body)
+
     let newTodo = {
         id: todoNextId++, // was : parseInt(req.body.id),
         description:  req.body.description,
@@ -47,6 +55,8 @@ app.post('/todos', function(req, res){
     res.status(201).send(newTodo)
 })
 
+
+// UPDATE - PUT
 app.put('/todos/:todoid', function(req, res){
     // the req.params object contains all the params (e.g. :todoid)
     console.log('the req.params object is :', req.params)
@@ -59,6 +69,11 @@ app.put('/todos/:todoid', function(req, res){
         return todo.id === requestedToDoId
     })
 
+    // if the requestedToDoIndex was not found then throw error
+    if(!requestedToDo) {
+        res.status(400).send(`The todo id ${requestedToDoId} does not exist`)
+    }
+
     // toggle the completion status
     requestedToDo.isComplete = !requestedToDo.isComplete;
     
@@ -66,6 +81,8 @@ app.put('/todos/:todoid', function(req, res){
     res.status(200).send(requestedToDo)
 })
 
+
+// REMOVE - DELETE
 app.delete('/todos/:todoid', function(req, res){
     var requestedToDoId = parseInt(req.params.todoid)
 
@@ -74,15 +91,23 @@ app.delete('/todos/:todoid', function(req, res){
     var requestedToDoIndex = toDoArray.findIndex(function(todo){
         return todo.id === requestedToDoId;
     })
+    console.log(toDoArray)
 
-    // remove the requested todo from the toDoArray
-    toDoArray.splice(requestedToDoIndex, 1)
-
-    // send the toDoArray as a confirmation
-    res.send(toDoArray)
+    // if the requestedToDoIndex was not found then throw error
+    if(requestedToDoIndex == -1) {
+        res.status(400).send(`The todo id ${requestedToDoId} does not exist`)
+    } else {
+        // remove the requested todo from the toDoArray
+        toDoArray.splice(requestedToDoIndex, 1)
+        console.log(toDoArray)
+        
+        // send the toDoArray as a confirmation
+        res.send(toDoArray)
+    }
 })
 
+
+// LISTEN
 app.listen(port, function(){
     console.log(`Started ToDo API on port ${port}`)
 })
-
