@@ -55,12 +55,11 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [Consuming APIs - Pt2 - Fetch API](https://docs.google.com/presentation/d/1wn8oLdS3l-IPUXBgZrV3DLjQD9RlS5Q8bL8Pi4yKyks/edit?usp=sharing)
 
 
-1. #### [RESTful APIs - Serving Your Data Using RESTful APIs](https://docs.google.com/presentation/d/1k3Z6TLGalWqRXue83E5qMaM-voD-sglseYp16CavNK8/edit?usp=sharing)
-1. #### [RESTful APIs - Serving APIs - Deployment to Heroku and Connecting Front-end](https://docs.google.com/presentation/d/1BDRz7KkulcCqmowE696MTuFyVetpLllLZQGMrIpoi6M/edit?usp=sharing)
-    1. #### [AJAX with jQuery](https://docs.google.com/presentation/d/16vbwoWv9LHUCM5HI0shoSsWjjawZ-TB03BEIUOWDK4g/edit?usp=sharing) 
+1. #### [APIs - Serving Your Data Using RESTful APIs](https://docs.google.com/presentation/d/1k3Z6TLGalWqRXue83E5qMaM-voD-sglseYp16CavNK8/edit?usp=sharing)
+1. #### [APIs - Deploying to Heroku / Connecting with Front-end](https://docs.google.com/presentation/d/1BDRz7KkulcCqmowE696MTuFyVetpLllLZQGMrIpoi6M/edit?usp=sharing)
+    1. #### [APIs - AJAX with jQuery](https://docs.google.com/presentation/d/16vbwoWv9LHUCM5HI0shoSsWjjawZ-TB03BEIUOWDK4g/edit?usp=sharing) 
 
 
+## Testing & Debugging
 
-
-
-
+1. #### [Testing & Debugging Your RESTful APIs](https://docs.google.com/presentation/d/1jPt5ABOh5G68F5snzf4-HWnYDHz3FTkzB7OoikbXefs/edit?usp=sharing)
