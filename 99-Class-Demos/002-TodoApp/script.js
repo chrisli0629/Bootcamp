@@ -1,13 +1,13 @@
 // THIS CODE RUNS IN THE BROWSER
 
 var todoAPIurl = "https://whispering-inlet-10068.herokuapp.com/todos";
+// va r todoAPIurl = "http://localhost:3000/todos"
 
 $('document').ready(function(){
     $.ajax({
-        "url" : todoAPIurl,
-        "method": "GET"
+        url : todoAPIurl,
+        method: "GET"
     })
-
     .done(function(dataObj){    // success
         // empty the existing todos
         $("ul").empty();
@@ -23,7 +23,6 @@ $('document').ready(function(){
            )
         })
     })   
-
     .fail(function(errorObj){   // error condition
         // what to do if the call fails?
         console.error("API call failed with error " + JSON.stringify(errorObj) );
@@ -34,7 +33,7 @@ $('document').ready(function(){
 
 // UPDATE
 $('ul').on('click', 'li', function() {
-  
+  var self = this
   var thisTodoId = $(this).data("id");
 
   $.ajax({
@@ -42,28 +41,50 @@ $('ul').on('click', 'li', function() {
     method: "PUT"
   })
   .done(function(){
-    $(this).toggleClass('completed');
+    $(self).toggleClass('completed');
   })
-
 });
+
 
 // DELETE
 $('ul').on('click', 'span', function(event) {
-  $(this).parent().remove();
+  var self = this
+  var thisTodoId = $(this).parent().data("id")
+  $.ajax({
+    url: `${todoAPIurl}/${thisTodoId}`,
+    method: "DELETE"
+  })
+  .done(function(){
+    $(self).parent().remove();
+  })
 });
+
 
 // CREATE
 $('input').keypress(function(event) {
   if (event.which === 13) {
-    var todoItem = $(this).val();
-    $('ul').append(
-      `<li>
-          ${todoItem}
-          <span>
-             <i class='fa fa-times'></i>
-          </span>
-        </li>`
-    );
-    $('input').val(""); // moved the "" to within the parentheses
-  }
+    var todoItem = {
+      description: $(this).val()
+    }
+    $.ajax({
+      url: todoAPIurl,
+      method: "POST",
+      data: todoItem
+    })
+    .done(function(newtodo){ 
+      $('ul').append(
+        `<li data-id="${newtodo.id}">
+            ${todoItem.description}
+            <span>
+              <i class='fa fa-times'></i>
+            </span>
+          </li>`
+      );
+      $('input').val(""); // moved the "" to within the parentheses
+    })
+  }  // closes if (event.which === 13) ...
 });
+
+
+
+
