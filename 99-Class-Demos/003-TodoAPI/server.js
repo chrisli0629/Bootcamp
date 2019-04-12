@@ -1,3 +1,4 @@
+// THIS CODE RUNS ON THE SERVER VIA NODEJS
 
 var express = require('express')
 var app = express()
@@ -16,22 +17,34 @@ var port = process.env.PORT || 3000
 
 var todoNextId = 3;
 
-
 var toDoArray = [
     {id: 1, description: "Call mom", isComplete: false},
     {id: 2, description: "Buy groceries", isComplete: false},
     {id: 3, description: "Go to movies", isComplete: false}
 ]
 
-
 app.get('/', function(req, res){
     res.send('You have reached my ToDos API!!')
 })
 
-
-
+// READ - GET
 app.get('/todos', function(req, res){
     res.send(toDoArray);
+})
+
+
+// READ A SPECIFIC TODO OBJECT - GET WITH PARAM
+app.get('/todos/:todoid', function(req, res){
+    // we parseInt this param, because it is a string
+    let requestedToDoId = parseInt(req.params.todoid)
+
+    // let's find the todo in the array that matches the todoId passed in
+    var requestedToDo = toDoArray.find(function(todo){
+        return todo.id === requestedToDoId
+    })
+
+    // send the requested todo, status of 200 is automatic
+    res.send(requestedToDo)
 })
 
 
@@ -39,7 +52,6 @@ app.get('/todos', function(req, res){
 app.post('/todos', function(req, res){
     // create new todo object based on the
     // data received by this API 
-    console.log('req.body is ', req.body)
 
     let newTodo = {
         id: todoNextId++, // was : parseInt(req.body.id),
@@ -61,7 +73,7 @@ app.put('/todos/:todoid', function(req, res){
     // the req.params object contains all the params (e.g. :todoid)
     console.log('the req.params object is :', req.params)
 
-    // we parseInt this param, because it looks like a string
+    // we parseInt this param, because it is a string
     let requestedToDoId = parseInt(req.params.todoid)
 
     // let's find the todo in the array that matches the todoId passed in
@@ -69,20 +81,15 @@ app.put('/todos/:todoid', function(req, res){
         return todo.id === requestedToDoId
     })
 
-    // if the requestedToDoIndex was not found then throw error
-    if(!requestedToDo) {
-        res.status(400).send(`The todo id ${requestedToDoId} does not exist`)
-    }
-
     // toggle the completion status
     requestedToDo.isComplete = !requestedToDo.isComplete;
     
     // return the toggled todo as confirmation
-    res.status(200).send(requestedToDo)
+    res.send(requestedToDo)
 })
 
 
-// REMOVE - DELETE
+// DELETE
 app.delete('/todos/:todoid', function(req, res){
     var requestedToDoId = parseInt(req.params.todoid)
 
@@ -91,7 +98,6 @@ app.delete('/todos/:todoid', function(req, res){
     var requestedToDoIndex = toDoArray.findIndex(function(todo){
         return todo.id === requestedToDoId;
     })
-    console.log(toDoArray)
 
     // if the requestedToDoIndex was not found then throw error
     if(requestedToDoIndex == -1) {
