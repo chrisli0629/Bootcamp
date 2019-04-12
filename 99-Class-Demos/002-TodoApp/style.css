@@ -10,7 +10,7 @@ body{
   border-color:gray;
 }
 
-.abcd {
+.completed {
   color:gray;
   text-decoration:line-through;
 }
