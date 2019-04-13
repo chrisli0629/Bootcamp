@@ -117,3 +117,5 @@ app.delete('/todos/:todoid', function(req, res){
 app.listen(port, function(){
     console.log(`Started ToDo API on port ${port}`)
 })
+
+module.exports = app
