@@ -20,7 +20,7 @@ Please review these pages on how to install Mongo on your OS
 * [Video Walkthru of Installation - Manny](https://drive.google.com/file/d/1347d5_-X-LOrettDE1vpSqqU4gVDVx34/view?usp=sharing)
 
 * [Instructions for Mac OSX](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
-* [Video Walkthru of Installation - Manny]()
+* [Video Walkthru of Installation - Piyush](https://drive.google.com/file/d/1P_CF2Alf3e4jmQU5FiMdq7h2hcmMwdUI/view?usp=sharing)
 
 Then review these pages on how to work with the documents
 
