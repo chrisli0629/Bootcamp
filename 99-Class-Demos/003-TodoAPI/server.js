@@ -61,7 +61,7 @@ app.post('/todos', function(req, res){
     // add the new todo to the todoArray
     toDoArray.push(newTodo)
     // let's see how our toDoArray looks now
-    console.log(toDoArray)
+    // console.log(toDoArray)
     // set the status code which is sent back 
     // and send the new todo to the client
     res.status(201).send(newTodo)
@@ -105,7 +105,7 @@ app.delete('/todos/:todoid', function(req, res){
     } else {
         // remove the requested todo from the toDoArray
         toDoArray.splice(requestedToDoIndex, 1)
-        console.log(toDoArray)
+        // console.log(toDoArray)
         
         // send the toDoArray as a confirmation
         res.send(toDoArray)
@@ -113,9 +113,9 @@ app.delete('/todos/:todoid', function(req, res){
 })
 
 
-// LISTEN
-app.listen(port, function(){
-    console.log(`Started ToDo API on port ${port}`)
-})
+// // LISTEN - now being listened within ./bin/www
+// app.listen(port, function(){
+//     console.log(`Started ToDo API on port ${port}`)
+// })
 
 module.exports = app

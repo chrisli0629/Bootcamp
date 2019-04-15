@@ -21,4 +21,32 @@ describe('2. GET items test', function(){
             .expect(/HOMEWORK/i, done);
     });
 
+    it('2.c Should PUT - with a 200 status', function(){
+        var todo = {"description": "Test todo - delete me" };
+
+        test(app)
+            .post('/todos')
+            .set ('Accept', 'application/json')
+            .send(todo)
+            .end(function(err, res){
+                // console.log('res.body is ', res.body)
+                if(err){throw err};
+                var insertedId = res.body.id;
+                // console.log('insertedId is ', insertedId)
+                test(app)
+                   .put('/todos/'+ insertedId)
+                   .expect(201,
+                       {
+                           description: res.description,
+                           completed: !res.isComplete,
+                           id: res.id
+                       }
+                   )
+            })
+    })
+
 })
+
+
+// PUT should succeed with appropriate HTTP status
+// GET executed immediately after should get the opposite of the todo isComplete status that you had earlier.  
