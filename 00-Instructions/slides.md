@@ -67,3 +67,6 @@ below and we'll provide you with the permission as quickly as we can.
 
 ## MongoDB
 1. #### [MongoDB](https://docs.google.com/presentation/d/1A1KX0-QLcEz1uXh6ZB_El-8ka87DKnjE-Zcvy7HJCP0/edit?usp=sharing)
+
+## Midterm Review
+1. #### [Midterm Review](https://docs.google.com/presentation/d/1Hua0uXV1tLTI41ggeRC6X-sNdgcg2qsWioR0LTXTV5Q/edit?usp=sharing)
