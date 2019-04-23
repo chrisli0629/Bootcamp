@@ -104,6 +104,7 @@ You would find a few topics which were omitted in their planned week, but were c
   * Scope
   * Higher order functions
   * Classes & constructor functions
+  * Array methods
   * Math class & methods
   * String class & methods
   * JSON methods
@@ -135,41 +136,43 @@ You would find a few topics which were omitted in their planned week, but were c
   * JSON Parsing & Stringifying
   * Viewing objects and arrays in Chrome browser & Postman
 
-* Week 9: Creating and Using RESTful APIs
+* Week 9: Serving APIs
 
   * Routing, Request Query and Request Params
-  * Logging
+  * Logging using Morgan
   * Data formats - HTTP Header Settings
+  * HTTP Status Codes
   * Body Parsing
   * Creating a ToDo RESTFul API
     * Create (POST)
     * Read (GET)
     * Update (PUT)
     * Delete (DELETE)
-    * Other HTTP Verbs
-  * Modifying the ToDo front-end app to connect with the API 
+  * Modifying the ToDo front-end app to connect with the API
+  * Calling our API from browser using jQuery AJAX method 
   * Testing the ToDo REST API we created
     * Mocha test runner
     * Assertion libraries
 
-* Week 10: MongoDB
+* Week 10: JavaScript Review for APIs 
+  * Array Methods revisited
+  * Ternary Operators
+  * Template Literals (ES6)
+  * Cross Origin Resource Sharing (CORS)
+  * Debugging NodeJS
+  * Debugging Front-end Javascript
+    * Devtools - Sources tab
+    * Devtools - Network tab
+  * Debugging Using VSCode
+  * Testing the RESTful API using 
+    * `mocha` test runner
+    * node assert command 
+    * supertest assertion library
+
+* Week 11: MongoDB
 
   * Intro to NoSQL
-  * Intro to Document Orinted Databases
-  * Local Setup of Mongo
-  * Mongo Client Setup (VSCode and Robo3T)
-  * Intro to MLab
-  * Finding
-  * Inserting
-  * Deleting
-  * Updating
-  * Aggregating
-  * Joining
-
-* Week 11: Mongo and MongooseJS
-
-  * Express.js 
-    * Routing
+  * Intro to Document Databases
   * Installing Mongo
   * What is Mongo?  
   * When to Use Mongo?
@@ -178,9 +181,36 @@ You would find a few topics which were omitted in their planned week, but were c
   * Insert, Save
   * Find, Filtering
   * Drop
+  * Local Setup of Mongo
+  * Mongo Client Setup (VSCode and Robo3T)
+  * Mongo in the Cloud - MLab
+  * Mongo client
+    * Finding
+    * Inserting
+    * Deleting
+    * Updating
+    * Aggregating (stretch goal)
+    * Joining (stretch goal)
+  * Midterm Review
+  * Midterm
+
+* Week 12: Mongo and MongooseJS
+
+  * Midterm Revisit
+  * How to use .gitignore?
+  * MongooseJS
+    * Schema
+    * Model
+    * ObjectID
+    * Save
+    * Create
+    * Find using Mongoose
+    * Errors in Mongoose
+    * Callbacks in Mongoose
+  * Integrating Mongo/Mongoose into our ToDo App
   * How to Design a Mongo Schema?
 
-* Week 12: SQL Databases 
+* Week 13: SQL Databases 
 
   * Concepts - what is relational db and why is it popular?
   * Select Statements
@@ -190,7 +220,7 @@ You would find a few topics which were omitted in their planned week, but were c
   * Filtering after Grouping
   * Subquerying
 
-* Week 13: More SQL Databases
+* Week 14: More SQL Databases
 
   * Relations and Keys
   * Inserts
@@ -200,18 +230,6 @@ You would find a few topics which were omitted in their planned week, but were c
   * Data Definition Language
   * Intermediate Querying
   * Schema and how to design one?
-
-* Week 14: jQuery & Front-end Back-end Integration
-  
-  * Why and why not jQuery
-  * Alternatives to jQuery
-  * How and when to load jQuery, local files and CDNs
-  * DOM Tree
-  * Selecting by elements, id's and classes
-  * Changing styles
-  * Changing content
-  * Events
-  * Animation
 
 * Week 15: Advanced JavaScript
   * Parsing
@@ -260,24 +278,29 @@ You would find a few topics which were omitted in their planned week, but were c
     * prototypes
     * classes
      
-* Week 15: React.js
-
+* Week 16: React.js
   * Components
   * JSX 
   * Virtual DOM 
   * Props
   * State
 
-* Week 16: React.js  React Router, Photo Gallery CRUD App)
+* Week 17: React.js  React Router, Photo Gallery CRUD App)
 
   * React Router
   * Component Lifecycle
   * A sample CRUD app using React
+  * Testing React Components (stretch goal)
 
-* Week 17: React.js
+* Week 18: React.js
+  * Designing Our React App
+  * React Hooks
+  * React ToDo app
+  * Need for state management
+  * Redux State Management (Stretch goal, maybe via extra session)
 
-* Weeks 18 - 24 : Capstone Project
+* Weeks 19 - 24 : Capstone Project
 
 * Week 24 : Final Exam and Celebration 
 
-Note: this roadmap is subject to change.
+Note: this roadmap is subject to change on an ongoing basis, based on the pace of learning in the cohort.
