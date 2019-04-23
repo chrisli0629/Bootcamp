@@ -12,10 +12,12 @@
 
 1. This folder and its contents will solely be considered for evaluating your preparation.
 
+1. Most of the questions are in markdown format (e.g. question.md). Markdown is similar to HTML in many ways, but easier. To view the content, you may view the file on github.com (github.com will "render" the .md files and you can view them). Or you may click upon the markdown preview button. It is the second button from left, in the bank of buttons on top right of VSCode.
+
 1. This review is in 2 parts
 
-    1. Small questions.  These have equal weight and total upto 60% of the evaluation.
-    2. Practical portion.  This is a small project, similar to class project that has 40% of the evaluation.
+    1. Small questions. These have equal weight and total upto 60% of the evaluation.
+    2. Practical portion. This is a small project, similar to class project that has 40% of the evaluation.
 
 1. This review is open book.  You may use all resources available to you, including discussions among your peers.  Please keep the discussion on Slack, so others do not get distracted.  Only use #midterm channel.  
 
