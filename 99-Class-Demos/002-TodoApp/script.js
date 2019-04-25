@@ -1,7 +1,7 @@
 // THIS CODE RUNS IN THE BROWSER
 
-var todoAPIurl = "https://whispering-inlet-10068.herokuapp.com/todos";
-// va r todoAPIurl = "http://localhost:3000/todos"
+// var todoAPIurl = "https://whispering-inlet-10068.herokuapp.com/todos";
+var todoAPIurl = "http://localhost:3000/todos"
 
 $('document').ready(function(){
     $.ajax({
@@ -16,7 +16,7 @@ $('document').ready(function(){
            let completed = todo.isComplete ? "class='completed'" : "";
            // let's add li's to the ul in the app
            $("ul").append(
-             `<li ${completed} data-id='${todo.id}'> 
+             `<li ${completed} data-id='${todo._id}'> 
                 ${todo.description}
                 <span><i class="fa fa-times"></i></span>
              </li>`
