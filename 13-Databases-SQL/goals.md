@@ -12,9 +12,9 @@ For the next two weeks, we will be learning relational databases and working wit
 
 ## Self Learning Resources
 
-[1. Youtube Learn Postgres for Beginners](https://www.youtube.com/playlist?list=PL-osiE80TeTsKOdPrKeSOp4rN3mza8VHN)
+1. [Youtube Learn Postgres for Beginners](https://www.youtube.com/playlist?list=PL-osiE80TeTsKOdPrKeSOp4rN3mza8VHN)
 
-[1. W3Schools SQL tutorial](https://www.w3schools.com/sql/)
+1. [W3Schools SQL tutorial](https://www.w3schools.com/sql/)
 
 ## Projects List
 
