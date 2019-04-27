@@ -12,13 +12,9 @@ For the next two weeks, we will be learning relational databases and working wit
 
 ## Self Learning Resources
 
-[1. Introduction to SQL at Datacamp (~4 hrs)](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
+[1. Youtube Learn Postgres for Beginners](https://www.youtube.com/playlist?list=PL-osiE80TeTsKOdPrKeSOp4rN3mza8VHN)
 
-[2. Youtube Learn Postgres for Beginners](https://www.youtube.com/playlist?list=PL-osiE80TeTsKOdPrKeSOp4rN3mza8VHN)
-
-[3. W3Schools SQL tutorial](https://www.w3schools.com/sql/)
-
-[4. Class Discussion Slides - Google Slides]()
+[1. W3Schools SQL tutorial](https://www.w3schools.com/sql/)
 
 ## Projects List
 
