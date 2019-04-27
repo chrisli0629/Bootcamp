@@ -72,3 +72,6 @@ below and we'll provide you with the permission as quickly as we can.
 
 ## Midterm Review
 1. #### [Midterm Review](https://docs.google.com/presentation/d/1Hua0uXV1tLTI41ggeRC6X-sNdgcg2qsWioR0LTXTV5Q/edit?usp=sharing)
+
+## Relational Databases & SQL
+1. #### [Relational Databases - Intro & Setup](https://docs.google.com/presentation/d/16wQ-f2F7PGJFfdzxhYfMYPbIFeCHtUhV4OraNzm5EMo/edit?usp=sharing)
