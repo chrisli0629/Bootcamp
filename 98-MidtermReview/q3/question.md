@@ -1,4 +1,4 @@
-Why would you want to call a third party API on the FRONTEND instead of the back end.  See Schemes A and B below. 
+Why would you want to call a third party API on the FRONTEND instead of the back end.  See Schemes A and B below.  Please discuss the advantages and disadvantages of calling APIs from front-end vs. back-end.
 
 Evaluation: 2 valid answers satisfy this question though more answers are possible.
 
