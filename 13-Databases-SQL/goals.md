@@ -16,6 +16,9 @@ For the next two weeks, we will be learning relational databases and working wit
 
 1. [W3Schools SQL tutorial](https://www.w3schools.com/sql/)
 
+1. [SQL Tutorial on Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql)
+
+
 ## Projects List
 
 SQL is best learnt by practice.  Learning concepts from secondary sources is necessary to start, but to grasp the underlying concepts you must write the queries and check the output of those, while fine tuning the results until you can get exactly what you are looking for (or asked for).
