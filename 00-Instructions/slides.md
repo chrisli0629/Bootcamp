@@ -22,6 +22,8 @@ below and we'll provide you with the permission as quickly as we can.
 ## Terminal, Command Line (Bash) and Git
 1. #### [How to use your command line - Google Slides](https://docs.google.com/presentation/d/1aHMf2KJHAmOfBUqCdfKoi4jcn_JtNyvdvcdlxwdqby8/edit?usp=sharing)
 
+1. #### [Mastering Git Live Document - Google Slides](https://docs.google.com/presentation/d/14Xq8WjQxCROPlaJCyBNmpo9jd0d4wTOZf6So2qR_XI0/edit?usp=sharing)
+
 ## HTML
 1. [Introduction](https://docs.google.com/presentation/d/1xxEMPx1q3YJlKauVuljw6M0Tim0j8Sy-zgddODUdQ2k/edit?usp=sharing)
 1. [Tables and Forms](https://docs.google.com/presentation/d/18nRqe0_LlIyCrqz1BieiMhKe41sasVlqOm5WzA3CptA/edit?usp=sharing)
