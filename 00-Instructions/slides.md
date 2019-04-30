@@ -76,7 +76,7 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [Midterm Review](https://docs.google.com/presentation/d/1Hua0uXV1tLTI41ggeRC6X-sNdgcg2qsWioR0LTXTV5Q/edit?usp=sharing)
 
 ## Relational Databases & SQL
-1. #### [Relational Databases - Setup & Introduction](https://docs.google.com/presentation/d/16wQ-f2F7PGJFfdzxhYfMYPbIFeCHtUhV4OraNzm5EMo/edit?usp=sharing)
+1. #### [Relational Databases - Setup & Introduction](https://docs.google.com/presentation/d/1cvHBX3BywPAjTk1ZsQcnscxJeLS4msB8yLmkzka8Lok/edit?usp=sharing)
 
 1. #### [Relational Databases - Querying](https://docs.google.com/presentation/d/1Wjpb8Liz9s6mpkrcNgilO2LFWJcJH3AuesPYus2i8pg/edit?usp=sharing)
 
