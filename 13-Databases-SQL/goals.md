@@ -73,7 +73,7 @@ Try the following questions on the database provided above and add the queries t
    
    Hint: Join between EMPLOYEES, DEPARTMENTS and LOCATIONS using DEPARTMENT_NAME = 'appropriate department name'.
    
-   What you would expect to see is
+   What you would expect to see is something similar to this:
    ```
    FIRST      LAST       EMAIL      DEPT       CITY
    ---------- ---------- ---------- ---------- ------------
@@ -91,9 +91,9 @@ Try the following questions on the database provided above and add the queries t
   
   Hint: add a self join to the EMPLOYEES table all over again giving it a different alias.   
   
-  Make changes so that all 107 employees are listed (for this requirement, think about using outer joins.  You may wait till we have covered outer joins in class.)  
+  Make changes so that all 22 employees are listed (for this requirement, think about using outer joins.  You may wait till we have covered outer joins in class.)  
   
-  What you would expect to see is
+  What you would expect to see is something similar to this:
   
   ```
   FIRST      LAST       EMAIL      MANAGER    DEPT       CITY
@@ -117,12 +117,11 @@ Try the following questions on the database provided above and add the queries t
   ```
      year_of_hiring | count 
     ----------------+-------
-               2009 |     7
-               2010 |     6
-               2011 |    10
-               2012 |    29
-               2013 |    24
-               2014 |    19
-               2015 |    11
-    (7 rows)
+               1997 |     2
+               2004 |     2
+               2006 |     3
+               2007 |     3
+               2008 |     3
+               2009 |     2
+    (6 rows)
   ```
