@@ -112,7 +112,7 @@ Try the following questions on the database provided above and add the queries t
   
   Hint: use grouping after extracting the year of hire.
   
-  Then leave out those who years where less than 1 employee was hired, while ordering the results chronologically.
+  Then leave out those who years where less than 2 employees were hired, while ordering the results chronologically.
     
   ```
      year_of_hiring | count 
