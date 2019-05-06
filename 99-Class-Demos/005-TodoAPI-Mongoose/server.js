@@ -116,8 +116,8 @@ app.delete('/todos/:todoid', function(req, res){
 
 // LISTEN - now being listened within ./bin/www
 //        - to start server, run `npm start`
-// app.listen(port, function(){
-//     console.log(`Started ToDo API on port ${port}`)
-// })
+app.listen(port, function(){
+    console.log(`Started ToDo API on port ${port}`)
+})
 
-module.exports = app
+// module.exports = app
