@@ -13,16 +13,22 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
+// this loads the index.html from ./frontend folder
+// and exposes everything within the folder to any browser
+app.use(express.static('frontend'))
+
 const mongoose = require('mongoose');
 const mongoUrl = 'mongodb://localhost:27017/todo_list';
 
 var port = process.env.PORT || 3000
 
-app.get('/', function(req, res){
-    res.send('You have reached my ToDos API!!')
-})
 
-
+// Commented this out so that the front-end app is
+// loaded when you load the root route in browser
+//
+// app.get('/', function(req, res){
+//     res.send('You have reached my ToDos API!!')
+// })
 
 mongoose.connect(mongoUrl, { useNewUrlParser: true })
     .then( function(returnedData) {
@@ -57,21 +63,6 @@ app.get('/todos', (req, res) => {
     })
 });
      
-
-// READ A SPECIFIC TODO OBJECT - GET WITH PARAM
-app.get('/todos/:todoid', function(req, res){
-    // we parseInt this param, because it is a string
-    let requestedToDoId = parseInt(req.params.todoid)
-
-    // let's find the todo in the array that matches the todoId passed in
-    var requestedToDo = toDoArray.find(function(todo){
-        return todo.id === requestedToDoId
-    })
-
-    // send the requested todo, status of 200 is automatic
-    res.send(requestedToDo)
-})
-
      
 // CREATE - POST
 app.post('/todos', function(req, res){
@@ -85,7 +76,6 @@ app.post('/todos', function(req, res){
 
 })
 
-
 // UPDATE - PUT
 app.put('/todos/:todoid', (req, res) => {
     TodoModel.findById(req.params.todoid, function(err, todo) {
@@ -95,8 +85,8 @@ app.put('/todos/:todoid', (req, res) => {
                 message: 'Error finding item with matching id' + err
             });
         } else {
-            console.log('todo object is ', todo)
-            console.log('todo && todo.isComplete is ', todo && todo.isComplete != undefined)
+            // console.log('todo object is ', todo)
+            // console.log('todo && todo.isComplete is ', todo && todo.isComplete != undefined)
             if(todo && todo.isComplete !== undefined) todo.isComplete = !todo.isComplete;
             todo.save(function(err, returnedTodo) {
                 if(err) res.send({code: 123, message: 'Hallelujah', err:err})
@@ -110,30 +100,19 @@ app.put('/todos/:todoid', (req, res) => {
 
 // DELETE -- NEEDS REFACTORING FOR MONGOOSE
 
-
-
 app.delete('/todos/:todoid', function(req, res){
-    var requestedToDoId = parseInt(req.params.todoid)
+    var requestedToDoId = req.params.todoid
 
-    // Find the index of the requested todo in the toDoArray
-    // The findIndex function loops over the toDoArray
-    var requestedToDoIndex = toDoArray.findIndex(function(todo){
-        return todo.id === requestedToDoId;
-    })
+    TodoModel.findByIdAndDelete(requestedToDoId, function(err){
+            if(err) {res.status(404).send({
+                code: 404,
+                message: `Todo with id ${requestedToDoId} was not found`
+            })}
 
-    // if the requestedToDoIndex was not found then throw error
-    if(requestedToDoIndex == -1) {
-        res.status(400).send(`The todo id ${requestedToDoId} does not exist`)
-    } else {
-        // remove the requested todo from the toDoArray
-        toDoArray.splice(requestedToDoIndex, 1)
-        // console.log(toDoArray)
-        
-        // send the toDoArray as a confirmation
-        res.send(toDoArray)
-    }
+            res.send();
+        }
+    )
 })
-
 
 // LISTEN - now being listened within ./bin/www
 //        - to start server, run `npm start`
