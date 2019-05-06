@@ -222,16 +222,28 @@ You would find a few topics which were omitted in their planned week, but were c
 
 * Week 14: More SQL Databases
 
-  * Relations and Keys
-  * Inserts
-  * Updates
-  * Deletes
-  * Merging
-  * Data Definition Language
-  * Intermediate Querying
-  * Schema and how to design one?
+  * Using Postgres with the Todo CRUD app
+  * Creating tables
+    * Relations and Keys
+  * Inserting rows into tables
+  * Updating rows in tables
+  * Deleting rows in tables
 
-* Week 15: Advanced JavaScript
+  * JQuery
+    * DOM
+    * AJAX
+    * Events
+    * Effects
+    * Form Validation
+
+* Week 15: React.js
+  * Components
+  * JSX 
+  * Virtual DOM 
+  * Props
+  * State
+
+* Week 16: Advanced JavaScript
   * Parsing
   * Lexical Environment
   * Context, global and this
@@ -277,13 +289,6 @@ You would find a few topics which were omitted in their planned week, but were c
     * Inheritance models
     * prototypes
     * classes
-     
-* Week 16: React.js
-  * Components
-  * JSX 
-  * Virtual DOM 
-  * Props
-  * State
 
 * Week 17: React.js  React Router, Photo Gallery CRUD App)
 
