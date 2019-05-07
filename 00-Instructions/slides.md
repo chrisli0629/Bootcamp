@@ -77,6 +77,6 @@ below and we'll provide you with the permission as quickly as we can.
 
 ## Relational Databases & SQL
 1. #### [Relational Databases - Setup & Introduction](https://docs.google.com/presentation/d/1cvHBX3BywPAjTk1ZsQcnscxJeLS4msB8yLmkzka8Lok/edit?usp=sharing)
-
 1. #### [Relational Databases - Querying](https://docs.google.com/presentation/d/1Wjpb8Liz9s6mpkrcNgilO2LFWJcJH3AuesPYus2i8pg/edit?usp=sharing)
+1. #### [Relational Databases - Todo App](https://docs.google.com/presentation/d/1oJU_Xm1FcdXW_vDAjA2l03ABFbfg5Cpu0JY5iLcPE8M/edit?usp=sharing)
 
