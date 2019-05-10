@@ -1,7 +1,9 @@
 I have an object which contains information about all my pets.  Create a JS function which outputs the same object structure, 
 but my pets are sorted by the quantity of food I need for them, each day.  
-Sample data ...
 
+Sample unsorted data ...
+
+<pre>
 var myPets = {
     "camel" : {
         "name": "Wednesday",
@@ -22,3 +24,4 @@ var myPets = {
         "daily food quantity": 50
     }
 }
+</pre>
