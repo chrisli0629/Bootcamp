@@ -21,9 +21,13 @@ var myPets = [
     {   
         "type": "elephant",
         "name": "Hathi",
-        "age": 12,
+        "age": 1,
         "food": "Plant matter, grass, hay, fruit",
         "daily food quantity": 50
     }
 ]
 </pre>
+
+### One possible Solution:
+
+https://repl.it/repls/PlumTransparentMemwatch
