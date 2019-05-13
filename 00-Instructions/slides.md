@@ -82,5 +82,7 @@ below and we'll provide you with the permission as quickly as we can.
 
 ## jQuery
 1. #### [Introduction to jQuery - Lecture 1](https://docs.google.com/presentation/d/1atBJ4mm7Wp4p_0wGev2_zAKUxJAq4vosBUuT8ZDNkb4/edit?usp=sharing)
-
 1. #### [jQuery - Lecture 2](https://docs.google.com/presentation/d/1h-iZaOU2cbztrlQ13Qib382S69cRtgp42chhavXAi8s/edit?usp=sharing)
+
+## Advanced JavaScript
+1. #### [More JavaScript Concepts](https://docs.google.com/presentation/d/1-iA2ZkZZ0KZYjNh6KqClmyjosJJiWuRucEr8SKJy8Bg/edit?usp=sharing)
