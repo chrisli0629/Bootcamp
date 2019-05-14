@@ -40,7 +40,7 @@ End result should look something like this: (https://i.imgtc.ws/ESD9Nbz.png)
 	3. Data will be passed down to ALL other components via props
 2. Build a Movie Component
 	1. Movie component should be comprised of a Poster component and an Info component
-	2. [Looping through arrays in React](https://stackoverflow.com/questions/29149169/how-to-loop-and-render-elements-in-react-js-without-an-array-of-objects-to-map)
+	2. [Iterating through arrays in React](https://stackoverflow.com/questions/29149169/how-to-loop-and-render-elements-in-react-js-without-an-array-of-objects-to-map)
 	3. You are going to have to use your Javascript knowledge, in-class projects, creativity, research  and trial-and-error to make it work - there are many ways to get the same result.
 3. Build a Poster Component
 	1. Will return an image using props passed down from App.js
