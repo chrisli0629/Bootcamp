@@ -31,7 +31,7 @@ After all 5 lectures, you should be able to:
 ## Self Learning Assignment
 
 Your assignment is to watch the videos in this link, and to work through the exercise in the videos. 
-This is a course from Wes Bos, and you read more here: (https://reactforbeginners.com/)
+This is a course from Wes Bos, and you can read more here: (https://reactforbeginners.com/)
 
 [Wes Bos - Catch of the Day - Beginner React videos](https://drive.google.com/drive/folders/1m8D3P06JUnga_5s4h0x23GOaPxDs-Ppa?usp=sharing)
 
@@ -45,8 +45,7 @@ Recommendation: watch the videos, code along, take notes (manually and inside yo
 Overall, I believe there are over 40 hours of video. This is NOT meant to be rushed through.
 Take your time, and go through ALL the lessons. 
 
-KNOW where this resource is: [Reactjs.org](https://reactjs.org)
-This is the number one place to go for questions and understanding of React.
+KNOW where this resource is: [Reactjs.org](https://reactjs.org)  This is the number one place to go for questions and understanding of React.
 You WILL use it quite often.
 
 

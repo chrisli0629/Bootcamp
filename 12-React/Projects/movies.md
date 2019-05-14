@@ -10,17 +10,9 @@
 
 
 #### Your task is to build a React app with a movie theme. This project is going to push your knowledge from all previous projects. It will be a challenge. Most of the content has been covered in class, but you are still going
-to have to do some research and test creative code to get it to work. There are MNAY ways to do this, so please do not get bogged down with how others do it. Find your own way.
+to have to do some research and test creative code to get it to work. There are MANY ways to do this, so please do not get bogged down with how others do it. Find your own way.
 
-
-<!-- 
-## REQUIREMENTS:
-
-1. You need to have a minimum of 8 different colors that will be used for your boxes.
-2. Boxes must be identical in size.
-3. All four boxes MUST be displayed in a a single row
-4. [Resource Example slides](https://docs.google.com/presentation/d/1NZ8zjzAoX-tfVLF5OZy6C9qQaZ9KMfOpnt-SzDw07Yk/edit?usp=sharing)
- -->
+End result should look something like this: (https://i.imgtc.ws/ESD9Nbz.png)
 
 #### Task #1 - Create App
 
