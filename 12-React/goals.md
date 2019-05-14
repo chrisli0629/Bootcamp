@@ -16,6 +16,7 @@ React is a view library that uses something called “components”
 Since everything in React is a component, you can frequently reuse these components
 
 After all 5 lectures, you should be able to:
+
 		1. Use create-react-app to build a basic app template
 		2. Understand the difference between HTML and JSX
 		3. Be able to pass props from one component 'down' to another
@@ -28,6 +29,27 @@ After all 5 lectures, you should be able to:
 		
 
 ## Self Learning Assignment
+
+Your assignment is to watch the videos in this link, and to work through the exercise in the videos. 
+This is a course from Wes Bos, and you read more here: (https://reactforbeginners.com/)
+
+[Wes Bos - Catch of the Day - Beginner React videos](https://drive.google.com/drive/folders/1m8D3P06JUnga_5s4h0x23GOaPxDs-Ppa?usp=sharing)
+
+React is a great way to build apps, especially if that application is going to change on a regular basis.
+BUT it requires time and interactiveness. The above videos (tutorials) are a great way to get an understanding.
+Please understand, you are not going to get all this in one pass. 
+These videos are great way to get your feet wet and take through the entire process of creating an application and preparing for deployment.
+They also show you how to attach your app to a database (something we will not be covering in class).
+
+Recommendation: watch the videos, code along, take notes (manually and inside your code).
+Overall, I believe there are over 40 hours of video. This is NOT meant to be rushed through.
+Take your time, and go through ALL the lessons. 
+
+KNOW where this resource is: [Reactjs.org](https://reactjs.org)
+This is the number one place to go for questions and understanding of React.
+You WILL use it quite often.
+
+
 
 ## Lecture 1 - Introduction
 
@@ -65,16 +87,24 @@ and display the results with basic component building.
 
 ## Projects
 
-Under the Projects folder, there are two sets of projects:
+Under the Projects folder, there are multiple projects to expand your React skills:
 
-### boxes.md
+#### boxes.md
 
 These projects will expand upon your knowledge learned in lectures 1 and 2. 
 The challenges will arise when you must determine when and how props are passed.
 
-### movies.md
+#### movies.md  - UNDER CONSTRUCTION
 
 This project will take all your knowledge learned in lectures 1-5 and apply them in a way to push your
 knowledge of CSS, APIs, props, and components
 
+
+#### tic-tac-toe.md - UNDER CONSTRUCTION
+
+Go to this link and BUILD the tic-tac toe game: (https://reactjs.org/tutorial/tutorial.html)
+This is great exercise on passing props and state.
+
+Once you feel comfortable with this, then follow the instructions under the tic-tac-toe.md and 
+make the changes as described to give you a more customized game.
 
