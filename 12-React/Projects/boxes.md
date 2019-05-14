@@ -1,8 +1,8 @@
 <center>
 
 ### AUSTIN COMMUNITY COLLEGE 
-#### Web Software Bootcamp 2018
-###### Sept 2018 - Apr 2019
+#### Web Software Bootcamp 2019
+###### January 2019 - August 2019
 
 </center>
 

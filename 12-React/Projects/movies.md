@@ -1,8 +1,8 @@
-center>
+<center>
 
 ### AUSTIN COMMUNITY COLLEGE 
-#### Web Software Bootcamp 2018
-###### Sept 2018 - Apr 2019
+#### Web Software Bootcamp 2019
+###### January 2019 - August 2019
 
 </center>
 
@@ -13,12 +13,14 @@ center>
 to have to do some research and test creative code to get it to work. There are MNAY ways to do this, so please do not get bogged down with how others do it. Find your own way.
 
 
+<!-- 
 ## REQUIREMENTS:
 
 1. You need to have a minimum of 8 different colors that will be used for your boxes.
 2. Boxes must be identical in size.
 3. All four boxes MUST be displayed in a a single row
 4. [Resource Example slides](https://docs.google.com/presentation/d/1NZ8zjzAoX-tfVLF5OZy6C9qQaZ9KMfOpnt-SzDw07Yk/edit?usp=sharing)
+ -->
 
 #### Task #1 - Create App
 
