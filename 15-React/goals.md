@@ -54,7 +54,9 @@ This is for those that like to code along as they learn. Many students like lear
   This provides a good, short overview and has been very liked by some of our past students.
 
 
+## Projects 
 
+Will be posted after in-class instructions.
 
 
 
