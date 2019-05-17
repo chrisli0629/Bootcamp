@@ -1,0 +1,12 @@
+.house{
+    border:3px inset brown;
+    padding:5px;
+    width:32%;
+    min-height:150px;
+    font-size:x-large;
+    float:left;
+}
+
+.waved{
+    transform:rotateZ(25deg);
+}
