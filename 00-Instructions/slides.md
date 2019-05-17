@@ -87,6 +87,7 @@ below and we'll provide you with the permission as quickly as we can.
 ## Intermediate JavaScript
 1. #### [More JavaScript Concepts](https://docs.google.com/presentation/d/1-iA2ZkZZ0KZYjNh6KqClmyjosJJiWuRucEr8SKJy8Bg/edit?usp=sharing)
 
-## Intermediate JavaScript
+## React 
 1. #### [React & JSX](https://docs.google.com/presentation/d/1mhQswX7z9sbmCsJzbl2i36GaRJJ6oXejaTsDt8shmfc/edit?usp=sharing)
+1. #### [Create React App & Props](https://docs.google.com/presentation/d/1D-k5gAjfrPC1MW0DUm_z2pSoyouhZJJO6JHfZOoHAjE/edit?usp=sharing)
 
