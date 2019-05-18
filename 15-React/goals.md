@@ -29,7 +29,7 @@ After the lectures, you should be able to:
     8. Experiment with different ideas in order to complete projects
     9. Use Chrome React Dev tools to assist in all aspects of React development
 
-## Self Learning Assignments
+## Self Learning Resources
 
 There are several good resources.  You may pick one and learn from it, depending on whether you prefer watching videos, learning from documentation and getting started tutorials, or books.
 
@@ -37,6 +37,12 @@ When you combine these with in-classroom lectures and Q&A with instructors and m
 
 The key is to be comfortable with not knowing everything at first and asking for help often.
 This is NOT meant to be rushed through.  Take your time, and go through all the lessons.
+
+## React 
+
+1. #### [Slide Deck - React & JSX](https://docs.google.com/presentation/d/1mhQswX7z9sbmCsJzbl2i36GaRJJ6oXejaTsDt8shmfc/edit?usp=sharing)
+
+1. #### [Slide Deck - Create React App & Props](https://docs.google.com/presentation/d/1D-k5gAjfrPC1MW0DUm_z2pSoyouhZJJO6JHfZOoHAjE/edit?usp=sharing)
 
 1. #### [React by Facebook, Getting Started Tutorial](https://reactjs.org/tutorial/tutorial.html)
 
