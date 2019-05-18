@@ -63,7 +63,7 @@ This is NOT meant to be rushed through.  Take your time, and go through all the 
     1.3 [Maximillian Schwartzmuller](https://www.udemy.com/react-the-complete-guide-incl-redux/)
 
 
-1. #### [React Tutorials by The Net Ninja - Youtube](https://www.youtube.com/watch?v=yZ0f1Apb5CU&list=PL4cUxeGkcC9i0_2FF-WhtRIfIJ1lXlTZR)
+1. #### [React Tutorials by The Net Ninja - Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG)
     This provides a good, short overview and has been very liked by some of our past students.
 
 # Lectures
