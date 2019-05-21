@@ -69,3 +69,6 @@ Some interesting insights about the internet and programming.  Yes, you should w
 
 ## JavaScript
 1. #### [Operator Precedence & Associativity Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table)
+
+## React
+1. #### [React Cheat Sheet](https://devhints.io/react)
