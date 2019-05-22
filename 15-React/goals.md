@@ -44,6 +44,9 @@ This is NOT meant to be rushed through.  Take your time, and go through all the 
 
 1. #### [Slide Deck - Create React App & Props](https://docs.google.com/presentation/d/1D-k5gAjfrPC1MW0DUm_z2pSoyouhZJJO6JHfZOoHAjE/edit?usp=sharing)
 
+1. #### [Slide Deck - State](https://docs.google.com/presentation/d/1hxhLrWDB1Fb7qnLRpHk0Giwxw3cY2Vig9fpYJb5qltc/edit?usp=sharing)
+
+
 1. #### [React by Facebook, Getting Started Tutorial](https://reactjs.org/tutorial/tutorial.html)
 
     This is for those that like to code along as they learn. Many students like learning this way, but not all do.  Pros: very fast, Cons: you need to piece a lot of different things together in your mind, and need to be comfortable not understanding everything at first.
