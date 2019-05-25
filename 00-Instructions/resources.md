@@ -53,10 +53,11 @@ Some interesting insights about the internet and programming.  Yes, you should w
 1. #### [Why cannot programming job applicants code?](https://blog.codinghorror.com/why-cant-programmers-program/)
 
 
-
 ## HTML
 1. #### [w3schools](https://www.w3schools.com/html/default.asp)
 1. #### [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
+1. #### [HTML Cheat Sheet in PDF](https://cdn.rawgit.com/hostinger/banners/2d7a9209/tutorials/pdf/The-Complete-HTML-Cheat-Sheet.pdf)
+1. #### [HTML Interactive Cheat Sheet](https://htmlcheatsheet.com/)
 
 ## CSS
 1. #### [W3Schools](https://www.w3schools.com/css/default.asp)
@@ -69,3 +70,6 @@ Some interesting insights about the internet and programming.  Yes, you should w
 
 ## JavaScript
 1. #### [Operator Precedence & Associativity Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table)
+
+## React
+1. #### [React Cheat Sheet](https://devhints.io/react)
