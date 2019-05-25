@@ -46,6 +46,7 @@
 5. Borders need to be 10px and your choice of style (solid, ridge, dashed, etc...)
 6. Borders must NEVER be the same color as boxes
 7. ALL four boxes should be IDENTICAL
+8. Use props to pass styles to a CHILD component
 	
 ## BONUS PROJECT  - Four DIFFERENT Boxes with borders 
 
