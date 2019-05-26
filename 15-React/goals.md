@@ -1,9 +1,8 @@
 <center>
 
 ### AUSTIN COMMUNITY COLLEGE 
-#### Software Bootcamp 
-January 2019 - Auguest 2019
-#### WEEK 15
+#### Web Software Bootcamp 2019
+###### January 2019 - August 2019
 
 </center>
 
@@ -17,19 +16,22 @@ React is a front end framework that was created by Facebook in 2013. It has sinc
 
 React is going to be the last big topic that we will be talking about in the bootcamp. After that, the focus will be on mastering everything that we've learned and using this knowledge to build meaningful real life web applications.
 
-After the lectures, you should be able to:
+After all the lectures, you should be able to:
 
-    1. Use create-react-app to build a basic app template
-    2. Understand the difference between HTML and JSX
-    3. Be able to pass props from one component 'down' to another
-    4. Be able to set state of a component as needed
-    5. Use React-Router to navigate to different components as needed
-    6. Basic (re)understanding of CSS and how it behaves differently with React - Router
-    7. Use a basic library (such as Fetch) in order to consume an API
-    8. Experiment with different ideas in order to complete projects
-    9. Use Chrome React Dev tools to assist in all aspects of React development
+		1. Use create-react-app to build a basic app template
+		2. Understand the difference between HTML and JSX
+		3. Be able to pass props from one component 'down' to another
+		4. Be able to set state of a component as needed
+		5. Use React-Router to navigate to different components as needed
+		6. Basic (re)understanding of CSS and how it behaves differently with React - Router
+		7. Use a basic library (such as Fetch) in order to consume an API
+		8. Experiment with different ideas in order to complete projects
+		9. Use Chrome React Dev tools to assist in all aspects of React development
+		
+You are encouraged to attempt projects ahead of time but please keep in mind that they are designed to be used to build upon knowledge
+discussed during lectures.
 
-## Self Learning Resources
+## Self Learning Assignments
 
 There are several good resources.  You may pick one and learn from it, depending on whether you prefer watching videos, learning from documentation and getting started tutorials, or books.
 
@@ -121,10 +123,66 @@ Under the Projects folder, there are multiple projects to expand your React skil
 
 - [Movies Project - link](./Projects/movies.md)
 
-	This project will take all your knowledge learned in lectures 1-5 and apply them in a way to push your knowledge of CSS, APIs, props, and components
+## Lecture Topics
+
+### Lecture 1 - Introduction
+
+What is React and why should we use it?
+
+### Lecture 2 - Props
+
+Props is how we pass properties (variables) from one component to another. How do we know this is actually
+happening? We can use certain tools available through Chrome to assist with our development.
+What is destructuring and how to use so you can speed up your coding and make more legible.
+How to use mapping and keys to build your components and ensure uniqueness.
+
+### Projects
+
+#### boxes.md
+
+These projects will expand upon your knowledge learned in lectures 1 and 2. 
+The challenges will arise when you must determine when and how props are passed.
 
 
-- [Tic-Tac-Toe Project - link](https://reactjs.org/tutorial/tutorial.html)
+## Lecture 3 - State
+
+Any time there are changes to data,  or changes to the 'state' of your page, we need to be able to make sure your page updates.
+Remember, props cannot change. However, state can, so how do we utilize this to our advantage.
+After a more in depth look at props, and how to map various data that we hard code, we can now change the state,
+change the data, that is passed.
+
+We can use a a simple form input to show how state is created (this.state), and changed (this.setState).
+
+### Projects
+
+#### tic-tac-toe.md 
+
+Go to this link and BUILD the tic-tac toe game: (https://reactjs.org/tutorial/tutorial.html)
+This is great exercise on passing props and state.
+
+
+## Lecture 4 - Routing
+
+When dealing with links and routing, React has a special way of ensuring the correct component loads
+This is done with React-Router.
+
+Also, we need to up our understanding on the way CSS works with different components and the way they are mounted.
+
+## Lecture 5 - APIs
+
+Currently, you can build a basic react app and you can pass props and state with your components IF you supply the data.
+But what if we need the data from an outside source? 
+Using fetch(), you are now going to be able build a basic app that consumes data from a third party
+and display the results with basic component building.
+
+### Projects
+
+#### movies.md
+
+This project will take all your knowledge learned in lectures 1-5 and apply them in a way to push your
+knowledge of CSS, APIs, props, and components
+
+
 
 	Go to this link and BUILD the tic-tac toe game.  This is great exercise on passing props and state.
 
