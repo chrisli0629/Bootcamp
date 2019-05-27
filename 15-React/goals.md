@@ -181,10 +181,3 @@ and display the results with basic component building.
 
 This project will take all your knowledge learned in lectures 1-5 and apply them in a way to push your
 knowledge of CSS, APIs, props, and components
-
-
-
-	Go to this link and BUILD the tic-tac toe game.  This is great exercise on passing props and state.
-
-	Once you feel comfortable with this, then follow the instructions under the tic-tac-toe .md file and make the changes as described to give you a more customized game. - UNDER CONSTRUCTION
-

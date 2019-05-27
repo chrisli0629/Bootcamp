@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import TodoItem from './TodoItem'
+// import TodoItem from './TodoItem'
 
 class App extends React.Component {
   constructor(props) {
@@ -12,6 +12,8 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
+
+  TodoItem = ({text}) => <li>{text}</li>
 
   handleChange(event) {
     this.setState({
