@@ -48,6 +48,10 @@ This is NOT meant to be rushed through.  Take your time, and go through all the 
 
 1. #### [Slide Deck - State](https://docs.google.com/presentation/d/1hxhLrWDB1Fb7qnLRpHk0Giwxw3cY2Vig9fpYJb5qltc/edit?usp=sharing)
 
+1. #### [Slide Deck - React Router](https://docs.google.com/presentation/d/1LEN7Z97g12LGf5brDKcFMdqx85P-U8oMHFCEHhj02n0/edit?usp=sharing)
+
+
+## Self Learning 
 
 1. #### [React by Facebook, Getting Started Tutorial](https://reactjs.org/tutorial/tutorial.html)
 
