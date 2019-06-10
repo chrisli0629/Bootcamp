@@ -50,6 +50,8 @@ This is NOT meant to be rushed through.  Take your time, and go through all the 
 
 1. #### [Slide Deck - React Router](https://docs.google.com/presentation/d/1LEN7Z97g12LGf5brDKcFMdqx85P-U8oMHFCEHhj02n0/edit?usp=sharing)
 
+1. #### [Slide Deck - React APIs](https://docs.google.com/presentation/d/1WRfcaBJL8H-q4FQR7nZVLCb1zHx5R32D9kMkNNU3-dk/edit?usp=sharing)
+
 
 ## Self Learning 
 
