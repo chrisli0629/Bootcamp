@@ -92,3 +92,6 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [Create React App & Props](https://docs.google.com/presentation/d/1D-k5gAjfrPC1MW0DUm_z2pSoyouhZJJO6JHfZOoHAjE/edit?usp=sharing)
 1. #### [State](https://docs.google.com/presentation/d/1hxhLrWDB1Fb7qnLRpHk0Giwxw3cY2Vig9fpYJb5qltc/edit?usp=sharing)
 1. #### [React Router](https://docs.google.com/presentation/d/1LEN7Z97g12LGf5brDKcFMdqx85P-U8oMHFCEHhj02n0/edit?usp=sharing)
+
+1. #### [Component Lifecycle & Hooks](https://docs.google.com/presentation/d/1U9064-ujwNQ57EuLzqKpniGAyCN9hbdjeFPvxa2muZg/edit?usp=sharing)
+

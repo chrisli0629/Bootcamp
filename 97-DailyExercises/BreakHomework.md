@@ -52,6 +52,5 @@ be thinking that I am not comfortable with Web Dev basics, and I'll postpone Rea
 is natural.  We would suggest that in the process of watching / reading React courses, you 
 would learn more about HTML, CSS and JavaScript. 
 
-
 Yes, breaks do rust our engines and firing them up keeps them running.  Please set aside some
 time to do these.  If you have other suggestions, please post them on #general.
