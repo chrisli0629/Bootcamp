@@ -18,20 +18,38 @@ const items = [
 
 
 // continued
-// order of statements is solved by using cb function
-function getItems(items, cb){
+// order of statements is solved by using promise
+function getItems(items) {
     var htmlStr = '';
-    // setTimeout is used as async command
-    items.forEach(function(item){
-        htmlStr += `<li>${toInitCase(item.name)}</li>`
+    // Remember any promises you create need to be returned
+    // to the caller and resolved or rejected. Here we are
+    // returning the promise
+    return new Promise(function (resolve, reject) {
+      // setTimeout is used to mimic getting a response from
+      // a remote resource
+      setTimeout(function () {
+        if (items.length) {
+          items.forEach(function (item) {
+            htmlStr += `<li>${toInitCase(item.name)}</li>`
+          })
+          rootDivNode.innerHTML = htmlStr;
+          resolve();   // there's nothing to return here so
+                       // we resolve without any value passed in
+        } else {
+          reject('No inventory found!')
+        }
+      }, 2000)
     })
-
-    setTimeout(function(){
-      rootDivNode.innerHTML = htmlStr;
-      cb();  // callback executed after list items added
-    }, 2000)
  }
  
- getItems(items, function(){
-    rootDivNode.insertAdjacentHTML("afterend", "<p>Done</p>");
- });
+ 
+// Invoke the getItems function
+getItems(items)
+ .then(
+   function () {
+       rootDivNode.insertAdjacentHTML(
+         "afterend", "<p>Done</p>");
+   })
+ .catch(function(e) {
+       console.error(e);
+})
