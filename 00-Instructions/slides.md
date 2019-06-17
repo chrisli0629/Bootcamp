@@ -84,8 +84,11 @@ below and we'll provide you with the permission as quickly as we can.
 1. #### [Introduction to jQuery - Lecture 1](https://docs.google.com/presentation/d/1atBJ4mm7Wp4p_0wGev2_zAKUxJAq4vosBUuT8ZDNkb4/edit?usp=sharing)
 1. #### [jQuery - Lecture 2](https://docs.google.com/presentation/d/1h-iZaOU2cbztrlQ13Qib382S69cRtgp42chhavXAi8s/edit?usp=sharing)
 
-## Intermediate JavaScript
-1. #### [More JavaScript Concepts](https://docs.google.com/presentation/d/1-iA2ZkZZ0KZYjNh6KqClmyjosJJiWuRucEr8SKJy8Bg/edit?usp=sharing)
+## Intermediate & Advanced JavaScript
+1. #### [Intermediate JavaScript](https://docs.google.com/presentation/d/1-iA2ZkZZ0KZYjNh6KqClmyjosJJiWuRucEr8SKJy8Bg/edit?usp=sharing)
+
+1. #### [Advanced Javascript](https://docs.google.com/presentation/d/15Bamnjc2qrJcSvqYL1ygMnJHo-fxPN26SYB8k6KPmC8/edit?usp=sharing)
+
 
 ## React 
 1. #### [React & JSX](https://docs.google.com/presentation/d/1mhQswX7z9sbmCsJzbl2i36GaRJJ6oXejaTsDt8shmfc/edit?usp=sharing)
