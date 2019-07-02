@@ -284,7 +284,7 @@ You would find a few topics which were omitted in their planned week, but were c
   * Passing variables
     * by value
     * by reference
-  * Context, this, arguments
+  * Execution Context, this, arguments
   * OOP
     * Inheritance models
     * prototypes

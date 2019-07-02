@@ -98,3 +98,6 @@ below and we'll provide you with the permission as quickly as we can.
 
 ## Authentication
 1. #### [Passport JS](https://docs.google.com/presentation/d/1k-y6Zw7i4VNLtby0jfC7jc9xr7zZFn-n-QRz4pyELyw/edit?usp=sharing)
+
+## Data Delivery
+1. #### [GraphQL](https://docs.google.com/presentation/d/1JM1gWoQY4FCkQL3z1aHTvl4Pb8FrLO_OL8PS3lyKdZQ/edit?usp=sharing)
