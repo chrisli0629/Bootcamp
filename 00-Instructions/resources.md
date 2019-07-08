@@ -49,9 +49,10 @@ Some interesting insights about the internet and programming.  Yes, you should w
 1. #### [How did the most popular web sites look in the early days of the internet (Webpage Archive)](https://archive.org/web/)
 
 ## About Learning to Code
-
 1. #### [Why cannot programming job applicants code?](https://blog.codinghorror.com/why-cant-programmers-program/)
 
+## GIT
+1. #### [Pull Request Tutorial](https://yangsu.github.io/pull-request-tutorial/)
 
 ## HTML
 1. #### [w3schools](https://www.w3schools.com/html/default.asp)
