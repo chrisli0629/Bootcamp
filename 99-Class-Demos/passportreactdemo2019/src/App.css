@@ -1,0 +1,61 @@
+a {
+  margin: 3%;
+}
+
+.login input {
+  display: block;
+  margin: 3%;
+  width: 20%;
+  border: darkblue 3px solid;
+  font-size: 1.5em;
+}
+
+.login ::placeholder {
+  font-size: 1.5em;
+  color: red;
+}
+
+.login input:focus {
+  color: green;
+  font-weight: bold;
+}
+
+.login button {
+  background: green;
+  width: 100px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.signup input {
+  display: block;
+  margin: 3%;
+  width: 20%;
+  border: darkblue 3px solid;
+  font-size: 1.5em;
+}
+
+.signup ::placeholder {
+  font-size: 1.5em;
+  color: purple;
+}
+
+.signup input:focus {
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.signup button {
+  background: darkgreen;
+  width: 100px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.errorMessage {
+  color: red;
+}
