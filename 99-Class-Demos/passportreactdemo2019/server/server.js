@@ -57,10 +57,6 @@ app.get('/logout', (req, res) => {
     res.send('Welcome to the LogOut page');
 })
 
-
-
-
-
 app.listen(port, ()=> {
     console.log(`Listening on port: ${port}`);
 })
