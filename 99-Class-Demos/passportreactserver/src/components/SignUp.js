@@ -4,11 +4,6 @@ import { Redirect, Link } from 'react-router-dom';
 
 const url = 'http://localhost:3001';
 
-// var config = {
-//   headers: {'Access-Control-Allow-Origin': 'http://localhost:3001'}
-// };
-
-
 class SignUp extends Component {
     constructor(props){
         super(props);
@@ -18,28 +13,32 @@ class SignUp extends Component {
             errorMessage: '',
             signedUp: false
         }
-        this.usernameChange = this.usernameChange.bind(this);
-        this.passwordChange = this.passwordChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-  usernameChange(e){
-    // setUserName(e.target.value)
+  handleChange = (e) => {
     this.setState({
-        username: e.target.value
+      [e.target.name]: e.target.value
     })
-    console.log('username: ', this.state.username);
   }
 
-  passwordChange(e){
-      this.setState({
-          password: e.target.value
-      })
-    console.log('password: ', this.state.password);
-  }
+  // NOTE: the following code is simplified with the handleChange code above
+  // usernameChange(e){
+  //   // setUserName(e.target.value)
+  //   this.setState({
+  //       username: e.target.value
+  //   })
+  //   console.log('username: ', this.state.username);
+  // }
+
+  // passwordChange(e){
+  //     this.setState({
+  //         password: e.target.value
+  //     })
+  //   console.log('password: ', this.state.password);
+  // }
   
   
-  handleSubmit(e){
+  handleSubmit = (e) => {
     e.preventDefault();
     this.setState({
         errorMessage: ''
@@ -69,27 +68,23 @@ class SignUp extends Component {
       })
   }
   
-
-  
   render() {
-        if (this.state.signedUp) {
-            return <Redirect to={{ pathname: "/home" }} />
-        }
-        return (
-        <form onSubmit={this.handleSubmit} className='signup'>
-          <h1>Sign up Page</h1>
-          <input type="text" value={this.state.username} onChange={this.usernameChange} placeholder="username"/>
-          <input type="password" value={this.state.password} onChange={this.passwordChange}placeholder="password"/>
-          <button>Submit</button>
-        
-          <h1 className='errorMessage'>{this.state.errorMessage}</h1>
-          <h1>Click <Link to="/login">here</Link> to log back in.</h1>
-        </form>
-        
-        )
+    let {signedUp, username, password, errorMessage} = this.state;
+    if (signedUp) {
+        return <Redirect to={{ pathname: "/home" }} />
+    }
+    return (
+    <form onSubmit={this.handleSubmit} className='signup'>
+      <h1>Sign up Page</h1>
+      <input type="text" name='username' value={username} onChange={this.handleChange} placeholder="username"/>
+      <input type="password" name='password' autocomplete="current-password" value={password} onChange={this.handleChange} placeholder="password"/>
+      <button>Submit</button>
+    
+      <h1 className='errorMessage'>{errorMessage}</h1>
+      <h1>Click <Link to="/login">here</Link> to log back in.</h1>
+    </form>   
+    )
   }
-
-  
 }
 
 export default SignUp;

@@ -14,33 +14,22 @@ class LogIn extends Component {
       loggedIn: this.props.loggedin,
       signedUp: false
     }
-    this.usernameChange = this.usernameChange.bind(this);
-    this.passwordChange = this.passwordChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  usernameChange(e){
+  handleChange = (e) => {
     this.setState({
-      username: e.target.value
+      [e.target.name]: e.target.value
     })
-    console.log('username: ', this.state.username);
+    console.log(`Test to see: ${[e.target.name]} and value: ${e.target.value}` );
   }
 
-  passwordChange(e){
-    this.setState({
-      password: e.target.value
-    })
-    // setPassword(e.target.value)
-    console.log('password: ', this.state.password);
-  }
   
-  handleSubmit(e){
+  handleSubmit = (e) => {
     e.preventDefault();
     console.log('username in login submit: ', this.state.username)
     console.log('password in login submit: ', this.state.password)
     axios
       .post(`${url}/login`, {
-        // headers: {'Access-Control-Allow-Origin': '*'},
         username: this.state.username,
         password: this.state.password
       })
@@ -63,16 +52,17 @@ class LogIn extends Component {
   
 
   render() {
-    if (this.state.loggedIn) {
+    let {loggedIn, signedUp, username, password} = this.state;
+    if (loggedIn) {
       return <Redirect to={{ pathname: "/home" }} />
-    } else if(this.state.signedUp){
+    } else if(signedUp){
       return <Redirect to={{ pathname: '/signup'}} />
     } else {
       return (
         <form onSubmit={this.handleSubmit} className='login'>
           <h1>Log in Page</h1>
-          <input type="text" value={this.state.username} onChange={this.usernameChange} placeholder="username"/>
-          <input type="password" value={this.state.password} onChange={this.passwordChange}placeholder="password"/>
+          <input type="text" name='username' value={username} onChange={this.handleChange} placeholder="username"/>
+          <input type="password" name='password' autocomplete="current-password" value={password} onChange={this.handleChange} placeholder="password"/>
           <button>Submit</button>
         </form>
       )
