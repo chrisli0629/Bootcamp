@@ -17,9 +17,13 @@ app.use(require('express-session')({
     saveUninitialized: false
 }));
 
+// loading up session object
+// storage is often doen by Redis TODO: research for more info
 app.use(passport.initialize());
 app.use(passport.session());
 passport.use(new LocalStrategy(User.authenticate()));
+
+// converts info from 'Redis' db
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
@@ -28,7 +32,14 @@ app.get("/", function(req, res) {
 });
 
 app.get("/newsfeed", isLoggedIn, function(req, res) {
-    res.render("newsfeed.ejs");
+    // req.user === 'Piyush'? 
+    //     res.render("newsfeed.ejs", {
+    //         user: req.user,
+    //         scores: scores
+    //     }):
+    //     res.render("newsfeed.ejs", {user: req.user});
+    res.render("newsfeed.ejs")
+    
 });
 
 app.get("/signup", function(req, res) {
@@ -61,6 +72,7 @@ app.post('/login', passport.authenticate('local',
 });
 
 app.get('/logout', function(req, res){
+    // cleans up and deletes Redis session
     req.logout();
     res.redirect('/');
 });

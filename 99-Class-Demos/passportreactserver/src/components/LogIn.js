@@ -36,6 +36,7 @@ class LogIn extends Component {
       .then((response) => {
         console.log('Hello from login', response.data);
         this.setState({
+          
           password: '',
           username: '',
           loggedIn: true

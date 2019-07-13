@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <Router className='App'>
-        {!this.state.loggedIn ? <Redirect to = '/login' />: null}
+        {!this.state.loggedIn ? <Redirect to='/login' loggedin={this.state.loggedIn}/>: null}
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} /> 
         <Route path="/shopping" component={Shopping} />

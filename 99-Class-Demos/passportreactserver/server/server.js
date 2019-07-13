@@ -70,7 +70,6 @@ app.post('/login', passport.authenticate('local'), function(req, res){
 
 app.get('/logout', (req, res) => {
     req.logout();
-    res.send(req.user);
 })
 
 function isLoggedIn(req, res, next){
