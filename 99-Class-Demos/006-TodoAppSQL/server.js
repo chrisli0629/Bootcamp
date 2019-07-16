@@ -87,8 +87,6 @@ app.get('/todos', (req, res) => {
         console.log(todos.rows);
         res.send(todos.rows);
     })
-             
-
 });
      
      
