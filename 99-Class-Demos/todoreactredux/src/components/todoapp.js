@@ -14,6 +14,19 @@ class TodoApp extends React.Component {
                 <div>
                     Todo App in React
                 </div>
+                <form>
+                    <input 
+                        type="text" 
+                        placeholder="What do you need to do?" 
+                        ref={(node)=>{
+                            this.inputNode = node;
+                        }}
+                    />
+                    <button type="submit">Add</button> 
+                </form>
+                <div>
+                    Todo List Comes Here
+                </div>
             </div>
         )
     }
