@@ -1,4 +1,5 @@
 import React from 'react'
+import TodoList from './todolist.js'
 
 class TodoApp extends React.Component {
     constructor(props) {
@@ -8,13 +9,21 @@ class TodoApp extends React.Component {
         }
     }
 
+    addItem(){
+
+    }
+
+    deleteItem(){
+
+    }
+
     render(){
         return (
             <div>
                 <div>
                     Todo App in React
                 </div>
-                <form>
+                <form onSubmit={this.addItem}>
                     <input 
                         type="text" 
                         placeholder="What do you need to do?" 
@@ -25,7 +34,10 @@ class TodoApp extends React.Component {
                     <button type="submit">Add</button> 
                 </form>
                 <div>
-                    Todo List Comes Here
+                   <TodoList 
+                        todos={this.state.todos}
+                        deleteItem={this.deleteItem}
+                   />
                 </div>
             </div>
         )
