@@ -5,6 +5,9 @@ class TodoList extends React.Component {
     var todolist = this.props.todos;
     var todolistJSX = todolist.map(
       (todo) => {
+        // below you want to pass an anonymous function which
+        // executes the deleteItem function with the todo.id
+        // closured in
         return (
           <li 
             key={todo.id}
@@ -15,6 +18,8 @@ class TodoList extends React.Component {
         )
       }
     )
+
+    // return the JSX defined above
     return(
       <ul>
         {todolistJSX}
@@ -37,8 +42,5 @@ class TodoList extends React.Component {
 //   }
 
 }
-
-
-
 
 export default TodoList;
