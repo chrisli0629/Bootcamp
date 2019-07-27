@@ -17,3 +17,4 @@ Write a mongo query that would return unique values of each of the keys
 
 In the above database, how would you count the number of mongo documents which contain a type "cat".
 
+
