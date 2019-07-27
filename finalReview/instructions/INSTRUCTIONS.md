@@ -25,11 +25,11 @@
 
 1. This review is in 2 parts
 
-    1. **Small questions**.  These have equal weight and total upto 60% of the evaluation.
+    1. **Small questions**.  These have equal weight and total upto 64% of the evaluation.
 
-    2. **Practical portion**.  This is a small project, similar to class project that has 40% of the evaluation.
+    2. **Practical portion**.  This is a small project, similar to class project that has 36% of the evaluation.
 
-1. This review is open book.  You may use all references available to you to answer the questions.
+1. This review is open book.  You may use all references available to you to answer the questions. You may ask instructors to point you in the right direction, if you are stuck. Think of this as a typical work environment, where you may ask a peer to show you the way, but not do the work for you.
 
 1. If a code snippet on the review has a bug, please feel free to fix it and then answer. There are some intentional bugs in sample code provided. This is much like the real world.
 
@@ -42,10 +42,10 @@
 
 Remember this final review is a test of how well prepared you are. You need a honest answer as much. Trying to bypass the process by copying answers, will not help with that goal. While some of the questions may appear difficult, they CAN be answered with some amount of research. It is more important to learn from this experience, than bypass it. As such, let us set some ground rules
 
-- No sharing of direct or indirect answers
-- Absolutely no sharing of answer code
-- No sharing of url references, your peers can web search too ;-)
-- Some of you may be asked to explain your answers after the review, if the answers are not clear
+- No sharing of direct or indirect answers.
+- Absolutely no sharing of answer code.
+- No sharing of url references, your peers can web search too ;-).
+- Some of you may be asked to explain your answers after the review, if the answers are not clear.
 - Any clarification from instructors should be posted on Slack under the channel **#final-students** such that all students have access to the same clarification. 
 
 
@@ -68,6 +68,6 @@ Remember this final review is a test of how well prepared you are. You need a ho
 
 1. Some credit is given for partially complete or partly correct answers as well. Hence do not skip questions.
 
-1. Do attempt the practical portion and push it, even if it doesn't work. You cannot succeed without attempting the practical portion, as it holds 40% of the overall grade value. Even non-working practical portion may attract enough credit to put you over the 70% mark.
+1. Do attempt the practical portion and push it, even if it doesn't work. You cannot succeed without attempting the practical portion, as it holds 36% of the overall grade value. Even non-working practical portion may attract enough credit to put you over the 70% mark.
 
 1. If you do not succeed at this review, you will get another opportunity to retake the review, without any repercussion. The only condition is that you must complete the process before the end of August 2019.
